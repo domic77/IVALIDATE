@@ -1,0 +1,169 @@
+{
+  "data": {
+    "posts": [
+      {
+        "title": "\"I have started cleaning up door hardware...\"",
+        "content": "I have started cleaning up door hardware",
+        "subreddit": "r/Antiques",
+        "upvotes": 461,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "unknown",
+        "createdAt": "2025-08-14T16:37:46.808Z"
+      },
+      {
+        "title": "\"Antique Brass Door Hardware Turned Pink... How To Fix? Soaked in vinegar to remove paint and I think...\"",
+        "content": "Antique Brass Door Hardware Turned Pink... How To Fix? Soaked in vinegar to remove paint and I think the zinc dissolved on the surface. Hardware is 100+ years old.",
+        "subreddit": "r/Antiques",
+        "upvotes": 28,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "unknown",
+        "createdAt": "2025-08-14T16:37:46.808Z"
+      },
+      {
+        "title": "\"I have used a bench grinder with a wire and buffing wheel. I also use a Dremel for the nooks and cra...\"",
+        "content": "I have used a bench grinder with a wire and buffing wheel. I also use a Dremel for the nooks and crannies.  I love how they turn out but I am still very new to doing it. I am wondering what is a good way to help keep them looking good for a long time. Currently I keep them oiled up a little bit but am scared to coat it in anything. What do you all recommend?",
+        "subreddit": "r/Antiques",
+        "upvotes": 461,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "unknown",
+        "createdAt": "2025-08-14T16:37:46.808Z"
+      },
+      {
+        "title": "\"Any ideas on how to restore this WW1 brass antique?...\"",
+        "content": "Any ideas on how to restore this WW1 brass antique?",
+        "subreddit": "r/Antiques",
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "unknown",
+        "createdAt": "2025-08-14T16:37:46.808Z"
+      },
+      {
+        "title": "\"What is the best way to clean tarnish off antique metal jewelry box. United States of America...\"",
+        "content": "What is the best way to clean tarnish off antique metal jewelry box. United States of America",
+        "subreddit": "r/Antiques",
+        "upvotes": 2,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "unknown",
+        "createdAt": "2025-08-14T16:37:46.808Z"
+      },
+      {
+        "title": "\"Best way to remove stains from old steamer trunk that has fabric on the outside? Also best cleaner a...\"",
+        "content": "Best way to remove stains from old steamer trunk that has fabric on the outside? Also best cleaner and grease to help make opening the clasps easier. Also to help get scuffs out of metal bands.",
+        "subreddit": "r/Antiques",
+        "upvotes": 2,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "unknown",
+        "createdAt": "2025-08-14T16:37:46.808Z"
+      },
+      {
+        "title": "\"Can anyone give me info about this piece? And maybe hardware suggestions? (United States)...\"",
+        "content": "Can anyone give me info about this piece? And maybe hardware suggestions? (United States)",
+        "subreddit": "r/Antiques",
+        "upvotes": 11,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "unknown",
+        "createdAt": "2025-08-14T16:37:46.808Z"
+      },
+      {
+        "title": "\"Found a really cool vintage 48 star USA flag, how to clean...\"",
+        "content": "Found a really cool vintage 48 star USA flag, how to clean",
+        "subreddit": "r/Antiques",
+        "upvotes": 3,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "unknown",
+        "createdAt": "2025-08-14T16:37:46.808Z"
+      }
+    ],
+    "sentiment": 5,
+    "painPoints": [
+      "Difficulty finding information and resources on antique restoration and preservation.",
+      "Challenges sourcing replacement hardware for antique pieces.",
+      "Lack of a centralized community to share knowledge and passion for antiques."
+    ],
+    "discussionVolume": 8,
+    "engagementLevel": 121,
+    "score": 45,
+    "realData": {
+      "totalMentions": 8,
+      "frustratedUsers": 2,
+      "neutralUsers": 6,
+      "satisfiedUsers": 0,
+      "totalRelevantPosts": 8,
+      "overallSentiment": 4.5,
+      "frustrationLevel": 0.4,
+      "keyInsights": [
+        "There is a consistent need for advice and support among antique collectors, specifically around cleaning, restoration, and preservation.",
+        "People are actively seeking information about their antique pieces, their history, and their value."
+      ],
+      "topQuotes": [
+        {
+          "quote": "I have started cleaning up door hardware",
+          "author": "Macheato",
+          "subreddit": "r/Antiques",
+          "upvotes": 461,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "I have used a bench grinder with a wire and buffing wheel. I also use a Dremel for the nooks and crannies.  I love how they turn out but I am still very new to doing it. I am wondering what is a good way to help keep them looking good for a long time. Currently I keep them oiled up a little bit but am scared to coat it in anything. What do you all recommend?",
+          "author": "Macheato",
+          "subreddit": "r/Antiques",
+          "upvotes": 461,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Antique Brass Door Hardware Turned Pink... How To Fix? Soaked in vinegar to remove paint and I think the zinc dissolved on the surface. Hardware is 100+ years old.",
+          "author": "Kpowwwwww",
+          "subreddit": "r/Antiques",
+          "upvotes": 28,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Can anyone give me info about this piece? And maybe hardware suggestions? (United States)",
+          "author": "pholivia193",
+          "subreddit": "r/Antiques",
+          "upvotes": 11,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Found a really cool vintage 48 star USA flag, how to clean",
+          "author": "L_Fig35",
+          "subreddit": "r/Antiques",
+          "upvotes": 3,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "What is the best way to clean tarnish off antique metal jewelry box. United States of America",
+          "author": "Berserker_wolves",
+          "subreddit": "r/Antiques",
+          "upvotes": 2,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Best way to remove stains from old steamer trunk that has fabric on the outside? Also best cleaner and grease to help make opening the clasps easier. Also to help get scuffs out of metal bands.",
+          "author": "WoodpeckerHaunting57",
+          "subreddit": "r/Antiques",
+          "upvotes": 2,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Any ideas on how to restore this WW1 brass antique?",
+          "author": "Dumb_Blonddd",
+          "subreddit": "r/Antiques",
+          "upvotes": 0,
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  },
+  "createdAt": "2025-08-14T16:37:46.833Z",
+  "expiresAt": "2025-08-14T18:37:46.833Z",
+  "ttl": 7200
+}

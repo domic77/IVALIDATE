@@ -1,0 +1,135 @@
+{
+  "data": {
+    "posts": [
+      {
+        "title": "\"Manually deleting hundreds or thousands of tweets is time-consuming, tedious, and prone to error....\"",
+        "content": "Manually deleting hundreds or thousands of tweets is time-consuming, tedious, and prone to error.",
+        "subreddit": null,
+        "upvotes": null,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "#",
+        "createdAt": "2025-08-13T09:29:23.396Z"
+      },
+      {
+        "title": "\"Existing methods lack efficiency and security....\"",
+        "content": "Existing methods lack efficiency and security.",
+        "subreddit": null,
+        "upvotes": null,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "#",
+        "createdAt": "2025-08-13T09:29:23.396Z"
+      },
+      {
+        "title": "\"Can someone please tell me how to delete all of my Twitter content without downloading anything? I d...\"",
+        "content": "Can someone please tell me how to delete all of my Twitter content without downloading anything? I don't want to keep or archive them, I just want them gone.",
+        "subreddit": "r/socialmedia",
+        "upvotes": 3,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/socialmedia/comments/1gvcvtq/can_someone_please_tell_me_how_to_delete_all_of/",
+        "createdAt": "2025-08-13T09:29:23.396Z"
+      },
+      {
+        "title": "\"I recently deleted my X (formerly Twitter) account...\"",
+        "content": "I recently deleted my X (formerly Twitter) account",
+        "subreddit": "r/socialmedia",
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 8,
+        "url": "https://reddit.com/r/socialmedia/comments/1h0ij7t/from_twttr_to_x_why_i_finally_deleted_my_18/",
+        "createdAt": "2025-08-13T09:29:23.396Z"
+      },
+      {
+        "title": "\"My account is from 2008! I remember originally downloading it to get early access to the warped tour...\"",
+        "content": "My account is from 2008! I remember originally downloading it to get early access to the warped tour lineup at my date, lol. Twitter was my main social media for like, half my life now. I even ignored all the Elon takeover drama because my niche spaces were still carrying on. But over time the blue checkmark payment thing ruined reading replies, the for you page made me actively start blocking weird things I have no interest in. Hostility got normalized and boosted. I don’t like it nearly as much anymore. I’ve found some solace on bsky in the past month! All the big comedy accounts and urbanism accounts I originally enjoyed on Twitter have migrated over there.",
+        "subreddit": "r/socialmedia",
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/socialmedia/comments/1h0ij7t/from_twttr_to_x_why_i_finally_deleted_my_18/",
+        "createdAt": "2025-08-13T09:29:23.396Z"
+      },
+      {
+        "title": "\"I’ve been trying to grow my X account for about 3 months now - posting daily, engaging with others, ...\"",
+        "content": "I’ve been trying to grow my X account for about 3 months now - posting daily, engaging with others, all that. The problem? The only posts that seem to get any traction are the ones where I jump on a trend immediately.",
+        "subreddit": "r/socialmedia",
+        "upvotes": 7,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/socialmedia/comments/1modaxm/how_do_you_grow_on_x_without_chasing_trends_all/",
+        "createdAt": "2025-08-13T09:29:23.396Z"
+      }
+    ],
+    "sentiment": 4,
+    "painPoints": [
+      "Time-consuming manual tweet deletion",
+      "Lack of efficient and secure deletion methods",
+      "Difficulty in repurposing Twitter accounts due to past content"
+    ],
+    "discussionVolume": 6,
+    "engagementLevel": 1.6666666666666667,
+    "score": 40,
+    "realData": {
+      "totalMentions": 6,
+      "frustratedUsers": 5,
+      "neutralUsers": 0,
+      "satisfiedUsers": 1,
+      "totalRelevantPosts": 6,
+      "overallSentiment": 3.5,
+      "frustrationLevel": 0.7,
+      "keyInsights": [
+        "Significant demand for a faster, more secure tweet deletion solution",
+        "Users are actively seeking ways to easily clean up their Twitter presence for rebranding or repositioning"
+      ],
+      "topQuotes": [
+        {
+          "quote": "I’ve been trying to grow my X account for about 3 months now - posting daily, engaging with others, all that. The problem? The only posts that seem to get any traction are the ones where I jump on a trend immediately.",
+          "author": "llm_hero",
+          "subreddit": "r/socialmedia",
+          "upvotes": 7,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Can someone please tell me how to delete all of my Twitter content without downloading anything? I don't want to keep or archive them, I just want them gone.",
+          "author": "carlyhaze",
+          "subreddit": "r/socialmedia",
+          "upvotes": 3,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Manually deleting hundreds or thousands of tweets is time-consuming, tedious, and prone to error.",
+          "author": null,
+          "subreddit": null,
+          "upvotes": null,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Existing methods lack efficiency and security.",
+          "author": null,
+          "subreddit": null,
+          "upvotes": null,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "I recently deleted my X (formerly Twitter) account",
+          "author": "SchmeedsMcSchmeeds",
+          "subreddit": "r/socialmedia",
+          "upvotes": 0,
+          "sentiment": "satisfied"
+        },
+        {
+          "quote": "My account is from 2008! I remember originally downloading it to get early access to the warped tour lineup at my date, lol. Twitter was my main social media for like, half my life now. I even ignored all the Elon takeover drama because my niche spaces were still carrying on. But over time the blue checkmark payment thing ruined reading replies, the for you page made me actively start blocking weird things I have no interest in. Hostility got normalized and boosted. I don’t like it nearly as much anymore. I’ve found some solace on bsky in the past month! All the big comedy accounts and urbanism accounts I originally enjoyed on Twitter have migrated over there.",
+          "author": "SchmeedsMcSchmeeds",
+          "subreddit": "r/socialmedia",
+          "upvotes": 0,
+          "sentiment": "frustrated"
+        }
+      ]
+    }
+  },
+  "createdAt": "2025-08-13T09:29:23.446Z",
+  "expiresAt": "2025-08-13T11:29:23.447Z",
+  "ttl": 7200
+}

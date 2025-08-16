@@ -1,0 +1,45 @@
+{
+  "data": {
+    "keyword": "mobile app solution",
+    "timeframe": "12m",
+    "searchVolume": [
+      71,
+      110,
+      96,
+      93,
+      116,
+      87,
+      108,
+      78,
+      65,
+      67,
+      64,
+      91
+    ],
+    "growthRate": -19.855595667870034,
+    "relatedQueries": [
+      "mobile app solution",
+      "best mobile app solution",
+      "mobile app solution alternative",
+      "mobile app solution comparison",
+      "mobile app solution reviews",
+      "top mobile app solution"
+    ],
+    "regionalInterest": {
+      "United States": 4,
+      "United Kingdom": 14,
+      "Canada": 8,
+      "Germany": 1,
+      "France": 2,
+      "Australia": 4,
+      "India": 9,
+      "Brazil": 58
+    },
+    "seasonality": 20.127405143328083,
+    "consistency": 79.87259485667192,
+    "score": 59
+  },
+  "createdAt": "2025-08-08T07:24:08.557Z",
+  "expiresAt": "2025-08-08T13:24:08.557Z",
+  "ttl": 21600
+}

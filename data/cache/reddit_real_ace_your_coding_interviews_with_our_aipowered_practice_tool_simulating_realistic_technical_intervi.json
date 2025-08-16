@@ -1,0 +1,207 @@
+{
+  "data": {
+    "posts": [
+      {
+        "title": "\"Introverted developers struggle to effectively practice coding interviews due to a lack of realistic...\"",
+        "content": "Introverted developers struggle to effectively practice coding interviews due to a lack of realistic, low-pressure practice opportunities, leading to anxiety and underperformance in actual interviews.",
+        "subreddit": null,
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "#",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"I’ve solved 250+ LeetCode problems, and I’m ranked in the top 40% in contests. Still, technical inte...\"",
+        "content": "I’ve solved 250+ LeetCode problems, and I’m ranked in the top 40% in contests. Still, technical interviews remain a big challenge for me.",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 430,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1k68uth/i_failed_twice_at_google_once_at_amazon_and_once/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"technical interviews remain a big challenge for me....\"",
+        "content": "technical interviews remain a big challenge for me.",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 430,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1k68uth/i_failed_twice_at_google_once_at_amazon_and_once/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"I am still a bit bummed out that I didn’t get the job offer, but how do you handle rejections like t...\"",
+        "content": "I am still a bit bummed out that I didn’t get the job offer, but how do you handle rejections like these?",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 1491,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1jtz4sq/the_bar_is_absolutely_insanely_high/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"Yea Software engineer contrary to popular belief is also challenging. The bar is def high, i feel sa...\"",
+        "content": "Yea Software engineer contrary to popular belief is also challenging. The bar is def high, i feel sad for juniors. I was planning on job hopping and the thought of interviewing again is already giving me anxiety lol",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 1491,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1jtz4sq/the_bar_is_absolutely_insanely_high/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"I do think I do excellent work in a real job setting, but I am pretty bad at leetcode and system des...\"",
+        "content": "I do think I do excellent work in a real job setting, but I am pretty bad at leetcode and system design, and get horribly nervous when live-coding in an interview setting!",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 291,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1jw55rp/just_received_multiple_excellent_offers_even/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"I’m starting to think AI is a net negative for new grads in that it both nerfs your reasoning muscle...\"",
+        "content": "I’m starting to think AI is a net negative for new grads in that it both nerfs your reasoning muscles ... AND also forces employers to put higher weight on credentialism ... given the rampant amount of cheating it enables during a remote technical interview.",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 902,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1m7fc13/we_filled_3_roles_at_my_startup_in_2_weeks_heres/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"I’ve never had that little bit of time to do ANY live coding challenge. At this point I was all but ...\"",
+        "content": "I’ve never had that little bit of time to do ANY live coding challenge. At this point I was all but ready to leave the call. Not out of anxiety but more so insult.",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 926,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1i2xhu8/probably_sat_through_the_most_unprofessional_code/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"I am simply rusty at solving them in the allotted time. My problem solving may also follow a non-tra...\"",
+        "content": "I am simply rusty at solving them in the allotted time. My problem solving may also follow a non-traditional sequence that the interviewer is simply not used to seeing (like, incorrect \"order of operations\" even though I solve the problem).",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 100,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1lx8xyv/do_i_really_have_to_grind_lc_to_get_my_next_job/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      },
+      {
+        "title": "\"Most of the recruiters I've spoken to say \"oh, we don't do LeetCode interviews here.\" ... However, t...\"",
+        "content": "Most of the recruiters I've spoken to say \"oh, we don't do LeetCode interviews here.\" ... However, the very next call I have with the company will be a tech screen where I am asked to do a LeetCode style puzzle, and inevitably I bomb.",
+        "subreddit": "r/cscareerquestions",
+        "upvotes": 100,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://reddit.com/r/cscareerquestions/comments/1lx8xyv/do_i_really_have_to_grind_lc_to_get_my_next_job/",
+        "createdAt": "2025-08-14T14:28:31.773Z"
+      }
+    ],
+    "sentiment": 3,
+    "painPoints": [
+      "Lack of realistic, low-pressure coding interview practice",
+      "LeetCode inadequacy",
+      "Interview anxiety",
+      "Insufficient time for live coding",
+      "Time pressure and unconventional problem-solving",
+      "Mismatched expectations and LeetCode struggles"
+    ],
+    "discussionVolume": 10,
+    "engagementLevel": 616.1,
+    "score": 72,
+    "realData": {
+      "totalMentions": 10,
+      "frustratedUsers": 9,
+      "neutralUsers": 1,
+      "satisfiedUsers": 0,
+      "totalRelevantPosts": 10,
+      "overallSentiment": 2.8,
+      "frustrationLevel": 0.7,
+      "keyInsights": [
+        "High demand for realistic practice tools",
+        "Many developers struggle with LeetCode and timed coding challenges despite having solid experience",
+        "Interviewers use various formats, but LeetCode is common even if not advertised"
+      ],
+      "topQuotes": [
+        {
+          "quote": "I am still a bit bummed out that I didn’t get the job offer, but how do you handle rejections like these?",
+          "author": "RazDoStuff",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 1491,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Yea Software engineer contrary to popular belief is also challenging. The bar is def high, i feel sad for juniors. I was planning on job hopping and the thought of interviewing again is already giving me anxiety lol",
+          "author": "RazDoStuff",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 1491,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "I’ve never had that little bit of time to do ANY live coding challenge. At this point I was all but ready to leave the call. Not out of anxiety but more so insult.",
+          "author": "NotMyBurner8512",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 926,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "I’m starting to think AI is a net negative for new grads in that it both nerfs your reasoning muscles ... AND also forces employers to put higher weight on credentialism ... given the rampant amount of cheating it enables during a remote technical interview.",
+          "author": "AugusteToulmouche",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 902,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "I’ve solved 250+ LeetCode problems, and I’m ranked in the top 40% in contests. Still, technical interviews remain a big challenge for me.",
+          "author": "controlpy",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 430,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "technical interviews remain a big challenge for me.",
+          "author": "controlpy",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 430,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "I do think I do excellent work in a real job setting, but I am pretty bad at leetcode and system design, and get horribly nervous when live-coding in an interview setting!",
+          "author": "weirdcompliment",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 291,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "I am simply rusty at solving them in the allotted time. My problem solving may also follow a non-traditional sequence that the interviewer is simply not used to seeing (like, incorrect \"order of operations\" even though I solve the problem).",
+          "author": "samuraisam",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 100,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Most of the recruiters I've spoken to say \"oh, we don't do LeetCode interviews here.\" ... However, the very next call I have with the company will be a tech screen where I am asked to do a LeetCode style puzzle, and inevitably I bomb.",
+          "author": "samuraisam",
+          "subreddit": "r/cscareerquestions",
+          "upvotes": 100,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Introverted developers struggle to effectively practice coding interviews due to a lack of realistic, low-pressure practice opportunities, leading to anxiety and underperformance in actual interviews.",
+          "author": null,
+          "subreddit": null,
+          "upvotes": 0,
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  },
+  "createdAt": "2025-08-14T14:28:31.812Z",
+  "expiresAt": "2025-08-14T16:28:31.812Z",
+  "ttl": 7200
+}

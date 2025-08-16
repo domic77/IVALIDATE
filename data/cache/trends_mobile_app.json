@@ -1,0 +1,46 @@
+{
+  "data": {
+    "keyword": "mobile app",
+    "timeframe": "12m",
+    "searchVolume": [
+      60,
+      59,
+      87,
+      85,
+      69,
+      64,
+      72,
+      66,
+      58,
+      60,
+      59,
+      60
+    ],
+    "growthRate": -13.106796116504862,
+    "relatedQueries": [
+      "mobile app",
+      "best mobile app",
+      "mobile app alternative",
+      "mobile app comparison",
+      "mobile app reviews",
+      "top mobile app",
+      "mobile app market"
+    ],
+    "regionalInterest": {
+      "United States": 4,
+      "United Kingdom": 4,
+      "Canada": 5,
+      "Germany": 5,
+      "France": 4,
+      "Australia": 13,
+      "India": 7,
+      "Brazil": 58
+    },
+    "seasonality": 14.489527700764018,
+    "consistency": 85.51047229923599,
+    "score": 61
+  },
+  "createdAt": "2025-08-07T18:18:06.512Z",
+  "expiresAt": "2025-08-08T00:18:06.512Z",
+  "ttl": 21600
+}

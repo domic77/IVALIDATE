@@ -1,0 +1,45 @@
+{
+  "data": {
+    "keyword": "world",
+    "timeframe": "12m",
+    "searchVolume": [
+      50,
+      61,
+      85,
+      73,
+      65,
+      83,
+      68,
+      44,
+      54,
+      48,
+      58,
+      63
+    ],
+    "growthRate": -13.775510204081623,
+    "relatedQueries": [
+      "world software",
+      "world app",
+      "world tool",
+      "world platform",
+      "world service",
+      "world solution"
+    ],
+    "regionalInterest": {
+      "United States": 4,
+      "United Kingdom": 1,
+      "Canada": 4,
+      "Germany": 8,
+      "France": 2,
+      "Australia": 26,
+      "India": 2,
+      "Brazil": 53
+    },
+    "seasonality": 19.95567178968518,
+    "consistency": 80.04432821031482,
+    "score": 59
+  },
+  "createdAt": "2025-08-07T17:58:30.320Z",
+  "expiresAt": "2025-08-07T23:58:30.320Z",
+  "ttl": 21600
+}

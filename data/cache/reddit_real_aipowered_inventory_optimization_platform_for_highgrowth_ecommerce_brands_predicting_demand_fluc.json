@@ -1,0 +1,261 @@
+{
+  "data": {
+    "posts": [
+      {
+        "title": "\"One of the biggest challenges I’ve had is staying on top of purchase orders with a growing catalog o...\"",
+        "content": "One of the biggest challenges I’ve had is staying on top of purchase orders with a growing catalog of skus (over 50 now). We’ve essentially stocked out 3 times in the past 8 months, naturally foregoing a good chunk of revenue but also likely slowing our growth. Even in the cases where I’ve been attentive and (thought I) planned appropriately for growth, we’ve been surprised once and stocked out for 3-4 weeks last month.",
+        "subreddit": "shopify",
+        "upvotes": 17,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"For growing shops at a size where Google sheets/excel isn’t quite cutting it anymore, how are you al...\"",
+        "content": "For growing shops at a size where Google sheets/excel isn’t quite cutting it anymore, how are you all staying on top on current inventory, inbound inventory, and purchase planning?",
+        "subreddit": "shopify",
+        "upvotes": 17,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"This is a two-part question. We are currently using an ERP system and lately it’s been giving us a l...\"",
+        "content": "This is a two-part question. We are currently using an ERP system and lately it’s been giving us a lot of problems when it comes to planning and sending items in FBA.",
+        "subreddit": "shopify",
+        "upvotes": 15,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"We have a 7 figure business and the ERP system is borderline giving us enough issues where we are st...\"",
+        "content": "We have a 7 figure business and the ERP system is borderline giving us enough issues where we are starting to consider moving away from it.",
+        "subreddit": "shopify",
+        "upvotes": 15,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"I find that Shopify has mostly everything you need to manage inventory but everything is so limited,...\"",
+        "content": "I find that Shopify has mostly everything you need to manage inventory but everything is so limited, there's so much missing. Can't make cycle counts, purchase orders are a pain in the ass to receive because there is no search bar to find the product you want to receive, there's no physical location option, like rack 1 shelf 2, so we did our own locations with metafields which works but is far from being optimal.",
+        "subreddit": "shopify",
+        "upvotes": 23,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"Shopify’s inventory management and reporting are embarrassingly bad....\"",
+        "content": "Shopify’s inventory management and reporting are embarrassingly bad.",
+        "subreddit": "shopify",
+        "upvotes": 23,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"Is there an app we could use that could do all of this or should we just create our own?...\"",
+        "content": "Is there an app we could use that could do all of this or should we just create our own?",
+        "subreddit": "shopify",
+        "upvotes": 23,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"So, ultimately I figured out it is spam bots hitting my site, creating fake accounts, and trying to ...\"",
+        "content": "So, ultimately I figured out it is spam bots hitting my site, creating fake accounts, and trying to check-out with stolen or bad credit cards. The primary way they were creating accounts was through the Shop Pay feature/button on my checkout page. This has been a HUGE bot exploit initiative in the past month or so and Shopify is doing zilch about it.",
+        "subreddit": "shopify",
+        "upvotes": 3,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"I have been running our own bootstrapped DTC brand for just over a year now and have been fortunate ...\"",
+        "content": "I have been running our own bootstrapped DTC brand for just over a year now and have been fortunate to see steady growth in that time.",
+        "subreddit": "shopify",
+        "upvotes": 17,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"We really don't need anything complicated. Currently we don't even utilize and barcodes or scans for...\"",
+        "content": "We really don't need anything complicated. Currently we don't even utilize and barcodes or scans for order picking/fulfillment or inventory tracking.",
+        "subreddit": "shopify",
+        "upvotes": 13,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"Biggest thing is that I want it to seamlessly integrate into Shopify - removing misalignment and inc...\"",
+        "content": "Biggest thing is that I want it to seamlessly integrate into Shopify - removing misalignment and inconsistencies.",
+        "subreddit": "shopify",
+        "upvotes": 13,
+        "comments": 0,
+        "sentiment": 8,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"I am looking at changing everything over to Shopify to have it all in the one place but the inventor...\"",
+        "content": "I am looking at changing everything over to Shopify to have it all in the one place but the inventory management side of things seems pretty basic",
+        "subreddit": "shopify",
+        "upvotes": 4,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"Just seeing what people are using to track their inventory, specifically landed costs when importing...\"",
+        "content": "Just seeing what people are using to track their inventory, specifically landed costs when importing a product.",
+        "subreddit": "shopify",
+        "upvotes": 4,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"We are an automotive paint supplier that imports our own paint. We sell to retail customers, trade c...\"",
+        "content": "We are an automotive paint supplier that imports our own paint. We sell to retail customers, trade customers and also wholesale customers.",
+        "subreddit": "shopify",
+        "upvotes": 4,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      },
+      {
+        "title": "\"At our current size, we’re staunchly an established smb, but nowhere near ready for these super heav...\"",
+        "content": "At our current size, we’re staunchly an established smb, but nowhere near ready for these super heavy enterprise solutions / apps I’ve found.",
+        "subreddit": "shopify",
+        "upvotes": 17,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "post_url",
+        "createdAt": "2025-08-14T20:27:45.603Z"
+      }
+    ],
+    "sentiment": 4,
+    "painPoints": [
+      "Stockouts due to inadequate purchase order management and inaccurate demand forecasting.",
+      "Inventory planning and purchase order management is too difficult in Google sheets / Excel",
+      "Existing ERP systems are causing issues with inventory management and FBA integration.",
+      "Shopify's native inventory management is too basic and lacks key features like cycle counts and bin locations.",
+      "Difficulty receiving purchase orders, especially with large SKU catalogs.",
+      "Need for seamless integration with Shopify to avoid data misalignment.",
+      "Difficulty tracking landed costs for imported products.",
+      "Current systems are not scalable.",
+      "Difficulty tracking minimum order quantity",
+      "Inability to streamline inventory for multi-channel selling"
+    ],
+    "discussionVolume": 15,
+    "engagementLevel": 13.866666666666667,
+    "score": 61,
+    "realData": {
+      "totalMentions": 15,
+      "frustratedUsers": 9,
+      "neutralUsers": 5,
+      "satisfiedUsers": 1,
+      "totalRelevantPosts": 15,
+      "overallSentiment": 4.2,
+      "frustrationLevel": 0.6,
+      "keyInsights": [
+        "There is a need for a simple, yet robust inventory management solution that integrates seamlessly with Shopify for high-growth e-commerce businesses.",
+        "Many SMBs find existing solutions either too basic or too complex and expensive, highlighting a gap in the market.",
+        "AI is being integrated into ecommerce to help with inventory."
+      ],
+      "topQuotes": [
+        {
+          "quote": "I find that Shopify has mostly everything you need to manage inventory but everything is so limited, there's so much missing. Can't make cycle counts, purchase orders are a pain in the ass to receive because there is no search bar to find the product you want to receive, there's no physical location option, like rack 1 shelf 2, so we did our own locations with metafields which works but is far from being optimal.",
+          "author": "kermitkanabis",
+          "subreddit": "shopify",
+          "upvotes": 23,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Shopify’s inventory management and reporting are embarrassingly bad.",
+          "author": "kermitkanabis",
+          "subreddit": "shopify",
+          "upvotes": 23,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "Is there an app we could use that could do all of this or should we just create our own?",
+          "author": "kermitkanabis",
+          "subreddit": "shopify",
+          "upvotes": 23,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "One of the biggest challenges I’ve had is staying on top of purchase orders with a growing catalog of skus (over 50 now). We’ve essentially stocked out 3 times in the past 8 months, naturally foregoing a good chunk of revenue but also likely slowing our growth. Even in the cases where I’ve been attentive and (thought I) planned appropriately for growth, we’ve been surprised once and stocked out for 3-4 weeks last month.",
+          "author": "thesthich",
+          "subreddit": "shopify",
+          "upvotes": 17,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "For growing shops at a size where Google sheets/excel isn’t quite cutting it anymore, how are you all staying on top on current inventory, inbound inventory, and purchase planning?",
+          "author": "thesthich",
+          "subreddit": "shopify",
+          "upvotes": 17,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "I have been running our own bootstrapped DTC brand for just over a year now and have been fortunate to see steady growth in that time.",
+          "author": "thesthich",
+          "subreddit": "shopify",
+          "upvotes": 17,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "At our current size, we’re staunchly an established smb, but nowhere near ready for these super heavy enterprise solutions / apps I’ve found.",
+          "author": "thesthich",
+          "subreddit": "shopify",
+          "upvotes": 17,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "This is a two-part question. We are currently using an ERP system and lately it’s been giving us a lot of problems when it comes to planning and sending items in FBA.",
+          "author": "Decent_Time_5167",
+          "subreddit": "shopify",
+          "upvotes": 15,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "We have a 7 figure business and the ERP system is borderline giving us enough issues where we are starting to consider moving away from it.",
+          "author": "Decent_Time_5167",
+          "subreddit": "shopify",
+          "upvotes": 15,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "We really don't need anything complicated. Currently we don't even utilize and barcodes or scans for order picking/fulfillment or inventory tracking.",
+          "author": "TJbros2",
+          "subreddit": "shopify",
+          "upvotes": 13,
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  },
+  "createdAt": "2025-08-14T20:27:45.743Z",
+  "expiresAt": "2025-08-14T22:27:45.744Z",
+  "ttl": 7200
+}

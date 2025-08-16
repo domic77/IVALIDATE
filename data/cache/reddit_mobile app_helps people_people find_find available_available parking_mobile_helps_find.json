@@ -1,0 +1,217 @@
+{
+  "data": {
+    "posts": [
+      {
+        "title": "My mobile app made $5.87k last month",
+        "content": "I have several apps deployed to App Store, for this app it’s a self development app Here are the technologies that I used:\n\n* Superwall to manage and A/B test paywalls\n* Firebase for notifications and analytics\n* Node js for the backend\n* RevenueCat to manage subscriptions\n* PostHog for session replays (this very helpfull, the app was working fine in my phone, but I discovered many bugs in defference screens and devices)\n\nI’ll be happily to answer all your questions",
+        "subreddit": "SideProject",
+        "upvotes": 1360,
+        "comments": 184,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://i.redd.it/9oocjlub6ugf1.png",
+        "createdAt": "2025-08-03T17:06:49.000Z"
+      },
+      {
+        "title": "What no-code tools for mobile apps are y'all using these days?",
+        "content": "",
+        "subreddit": "nocode",
+        "upvotes": 3,
+        "comments": 10,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/nocode/comments/1masd03/what_nocode_tools_for_mobile_apps_are_yall_using/",
+        "createdAt": "2025-07-27T17:35:33.000Z"
+      },
+      {
+        "title": "[HIRING] 🚀 We Just Launched a New Mobile App — 100 Testers Needed TODAY!",
+        "content": "Earn $2–$5 in 3–5 Minutes! 💸\n\nHey Reddit! 👋  \nWe just launched a brand-new mobile app and we’re looking for **100 fast testers TODAY**.  \nThe task is **simple**, takes only 3–5 minutes, and **pays instantly** after proof — no signups, no personal info, no risk.\n\n💰 **What You Get:**\n\n* $2–$5 per test (varies by country)\n* Fast payment via **PayPal, Wise, Payoneer, or Crypto (USDT/BTC)**\n* **No deposit / No ID / No signup required**\n* **Bonus:** Refer friends and earn more daily\n\n✅ 100% legit — real payment proof available  \n✅ 150+ testers got paid this week  \n✅ Full guidance provided — super beginner-friendly\n\n📲 **Who Can Join:**\n\n* Anyone with a phone (Android or iOS)\n* All countries welcome\n* No experience needed\n\n🚀 **How To Start:**\n\n1. Upvote this post\n2. Comment your **country**\n3. DM me:  • First name  • Country  • Payment method\n\n📌 **Note:** We receive lots of messages. If you don’t get a reply within an hour, send us another DM with your info — we’ll prioritize you and get you paid faster.\n\n👇 Let’s go! Comment below, upvote this post &amp; check your inbox.  \nWe’ll help you earn your first $5 today — no stress, no strings attached. 💸\n\n**⏳ Reminder: If you messaged us and still didn’t get a reply, please resend your info — we’re catching up now!**",
+        "subreddit": "freelance_forhire",
+        "upvotes": 81,
+        "comments": 165,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/freelance_forhire/comments/1m2lkfq/hiring_we_just_launched_a_new_mobile_app_100/",
+        "createdAt": "2025-07-17T22:36:08.000Z"
+      },
+      {
+        "title": "I grew my mobile app to 1.4 million downloads",
+        "content": "I started developing the app in early 2017, well before the AI era, when mobile apps were at their peak popularity. My idea was to create an app for emotional and psychological support in the form of helpful articles and various quizzes, such as personality assessments and life satisfaction tests. I named the app \"Emotional Intelligence\" because this keyword showed good ASO potential for positioning at the top of mobile stores.\n\nThis proved to be accurate, and the app quickly gained traction in terms of downloads. A major problem I faced then was monetization. Unfortunately, in my country, it wasn't possible to sell through Google Play then, so I could only display ads. I started with Google AdMob, earning $2000 monthly after just a few months. The app then got about 1500 organic downloads daily and quickly surpassed 500,000.\n\nThree years after launching the app, I decided it was time for branding to build recognition. By combining the words \"sentiment\" and \"intelligence,\" I came up with \"Sintelly.\" I then pushed the app toward a social network, which differed from the right move. Adding features like discussion forums for problems, likes, and comments would result in even more growth, but the opposite happened. The app started declining, and I began investing in advertising campaigns. I managed to maintain a balance between income and expenses but without any profit. Then COVID-19 hit, and everything went downhill. I had to give up development and find a job as a developer to ensure my livelihood.\n\nTwo years passed since I gave up, and that's when ChatGPT started gaining popularity. This immediately showed me how to steer the app towards active support for well-being questions. As I'm not an expert in psychology, I found several external psychotherapists who helped me put together CBT therapy, which I then implemented through a chatbot. This is how the new Sintelly app was born, with its main feature being a chatbot system composed of 17 AI agents that adapt to the user and guide them through a five-phase CBT therapy (I'll write a post about the technology). In addition to the agents, I added various exercises and tests to provide better personalization for the user.\n\nInitially, I made all of this free, which was also a mistake. I followed the principle of first showing what the app can do and gathering enough new users before starting to charge. I started selling subscriptions at the beginning of July, and since then, the app has had stable growth.\n\nIf you want a check app, here is the [link](https://sintelly.com/download/).\n\n**Lessons learned:**\n\n* If things are working, don't touch them\n* Start selling immediately upon app release; there's no need to wait\n* Regularly test prices and types of subscriptions\n* Onboarding is the most essential part of the app because most users buy subscriptions during onboarding\n* It's essential to listen to user feedback.\n* From day one, have a website and work on content to generate organic visits and redirect users from the web to the mobile app\n\n**Stats:**\n\n* Over 1.4 million downloads\n* 4.4 rating\n* Only 40,000 active users (I had a massive loss during the period when I gave up)\n* 280 active subscribers\n* $3000 monthly revenue\n\n**Next steps:**\n\n* Work on improving the Agent AI approach\n* Setting up email campaigns and transactional emails\n* Introducing in-app and push notifications\n* Introducing gamification\n* Potential for B2B\n\nI hope you can extract useful information from my example and avoid repeating my mistakes. I'm interested in your thoughts and if you have any recommendations for the next steps. I'm always looking to learn and improve.",
+        "subreddit": "SideProject",
+        "upvotes": 427,
+        "comments": 122,
+        "sentiment": 10,
+        "url": "https://reddit.comhttps://www.reddit.com/r/SideProject/comments/1g3hrw3/i_grew_my_mobile_app_to_14_million_downloads/",
+        "createdAt": "2024-10-14T14:57:20.000Z"
+      },
+      {
+        "title": "Launched my first Mobile App - Here's my thoughts...",
+        "content": "I’ve been toying with mobile app ideas for years but never had the courage to actually build one until recently. With a background in web apps, design, and marketing, I figured developing a mobile app was the last piece of the puzzle.\n\nI decided to dive into Flutter Flow, and it was a game-changer. In just **25 days**, I managed to get a solid MVP live on the app store. Here’s what I learned along the way:\n\n* **Timebox Your Hurdles:** If something’s taking way longer than expected, set it aside. Either brainstorm a new way to tackle it or come back later with fresh eyes.\n* **Get Comfortable with Code.** Tools like VS Code and GitHub will eventually become your best friends. They will supercharge your Flutter Flow projects.\n* **Focus on One Platform:** Start with either iOS or Android (iOS might be easier) rather than trying to achieve cross-platform compatibility from the start.\n* **Keep Login Simple:** Social logins can wait. For your MVP, a basic email and password are enough to test your idea and gather feedback.\n* **Ship Early, Ship Often:** Don’t stress over bundling everything into big, infrequent updates. Regular, smaller pushes keep you agile and responsive.\n\nGood luck out there!\n\nCurious about what I built? [Check it out here.](https://www.enterkey.app/)",
+        "subreddit": "nocode",
+        "upvotes": 27,
+        "comments": 11,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/nocode/comments/1iu9cs4/launched_my_first_mobile_app_heres_my_thoughts/",
+        "createdAt": "2025-02-20T21:05:28.000Z"
+      },
+      {
+        "title": "What is the best and cost effective no code mobile app development app?",
+        "content": "Hi,\n\nI am quite new to app development. I want to build and launch some apps on Android (first). There are no code apps around, but I am not sure which ones are good for beginners.\n\nI know HTML, CSS, and how functions are formed, but I have no experience developing an app. So I am looking for an app that helps me build and upload to the store with AI.\n\nThe app should be easy like Lovable. But Lovable is for web apps.",
+        "subreddit": "nocode",
+        "upvotes": 19,
+        "comments": 42,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/nocode/comments/1lw5icp/what_is_the_best_and_cost_effective_no_code/",
+        "createdAt": "2025-07-10T06:17:23.000Z"
+      },
+      {
+        "title": "Mobile apps are the dropshipping of 2025.",
+        "content": "Hey guys!   \nI don't know if I'm the only one who's noticed, but mobile apps are currently the dropshipping of 2025.\n\nI see everyone creating mobile apps on X. I go to the app store and any search shows five new apps for that niche.\n\nCursor and Claude Code have undoubtedly lowered the technical requirements, and most have entered the mobile app world.\n\nI'm not complaining about the competition or anything, it's just an observation.",
+        "subreddit": "iOSProgramming",
+        "upvotes": 108,
+        "comments": 96,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/iOSProgramming/comments/1m5t8ad/mobile_apps_are_the_dropshipping_of_2025/",
+        "createdAt": "2025-07-21T19:58:23.000Z"
+      },
+      {
+        "title": "Why aren't more people using the mobile app?",
+        "content": "Not a complaint because this actually benefited me... flew in to ORD yesterday, and breezed through with the mobile app. The line for the kiosks was at least 30-40 people long. No wait for going through if you had registered with the app. \n\nDo most people with GE just not know that the app exists?\n\n",
+        "subreddit": "GlobalEntry",
+        "upvotes": 41,
+        "comments": 72,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/GlobalEntry/comments/1l1iu3z/why_arent_more_people_using_the_mobile_app/",
+        "createdAt": "2025-06-02T14:02:45.000Z"
+      },
+      {
+        "title": "The Biggest Things I've Learned Launching a Growing Mobile App",
+        "content": "I left my software engineering job a few months ago to work on an interactive AI journaling app full-time with my friend. We recently launched it and have had better-than-expected traction! (\\~100 monthly active users) Which has been awesome. Here are the things I've learned from working on it:\n\n1. Know the Business\n\nIf you're working in the paid app market, the core business metric is the Lifetime Value (LTV) of a customer minus the Cost of Acquisition (CAC), LTV - CAC. If on average, the amount of money a user pays before they leave your app is more than the average cost to acquire a user, you are profitable. These are the 2 main levers to work on while building an app. LTV is more product-based, and CAC is more marketing-based. You can either improve your product and have people stay for longer / pay more or improve your marketing and lower your cost to get new users.\n\n2. Have In-App Analytics\n\nThis is the MOST IMPORTANT THING. I've been at growing startups before where, at launch, we don't know who is using the app, what they're doing on it, etc. It makes it almost impossible to understand what to improve, loved features, etc.\n\nWe use PostHog. Just like there is Google Analytics for websites, there are event trackers for apps. There are a bunch out there, but I found PostHog the most startup-friendly in terms of free programs and credits to not break the bank while starting out. For each important user interaction, fire an event to PostHog, and then you can track how users are progressing through your app. 80% of downloads opened the app, 50% made an account, etc. With this information, you can see your true bottlenecks as you scale.\n\n3. Optimize your App Store Page for Keywords\n\nThe real balance is striking something that sounds nice to humans AND machines. The biggest thing that helped here is keeping the name unique to your industry, keeping it short (to fit more keywords on the title), and stuffing keywords into your description. This allows for search to properly index your App and reach a wider audience organically.\n\nWhen thinking of a name, simply search the app store for what you're thinking and see if there's any big names / a lot of competition that comes up. If so, think of another. There's nothing worse than someone searching for your app on the App Store and not being able to find it / being poached by a competitor.\n\n4. Find Ad Keywords that aren't Popular Yet\n\nONLY RELEVANT IF YOU'RE PAYING FOR ADS\n\nA digital marketing friend explained to me that when adding keywords to your ads, try to find ones that seem to be growing in popularity but haven't been used by other companies much. For instance, in the wellness space, \"nervous system\" is becoming a popular topic, but there isn't much bidding on the keyword in the ad space. So I'm getting cheaper impressions and clicks then more bid on keywords. Usually being in touch with what is trending on social media is helpful.\n\n5. Connect Analytics to Ads\n\nONLY RELEVANT IF YOU'RE PAYING FOR ADS\n\nThe best way to optimize your ads is to give your ad systems the most valuable data possible, usage. Almost all analytics tools (PostHog, Amplitude, etc.) will have integrations with ad systems (Google, Apple, Meta) where you can send attribution data to them. This means you can track someone from an ad and how far they got into your app (download, signup, recurring use, paid, etc.). This will allow the ad system to optimize your ad for the highest quality leads, therefore making your ad campaign more efficient.\n\nFeel free to comment or DM if you have any questions! ",
+        "subreddit": "Entrepreneur",
+        "upvotes": 3,
+        "comments": 7,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/Entrepreneur/comments/1lp2sim/the_biggest_things_ive_learned_launching_a/",
+        "createdAt": "2025-07-01T14:15:18.000Z"
+      },
+      {
+        "title": "Mobile app?",
+        "content": "What’s the deal with the mobile app? Is there one? I use Pikapods",
+        "subreddit": "actualbudgeting",
+        "upvotes": 3,
+        "comments": 6,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/actualbudgeting/comments/1h5hvp5/mobile_app/",
+        "createdAt": "2024-12-03T07:14:35.000Z"
+      },
+      {
+        "title": "My mobile app made $5.87k last month",
+        "content": "I have several apps deployed to App Store, for this app it’s a self development app Here are the technologies that I used:\n\n* Superwall to manage and A/B test paywalls\n* Firebase for notifications and analytics\n* Node js for the backend\n* RevenueCat to manage subscriptions\n* PostHog for session replays (this very helpfull, the app was working fine in my phone, but I discovered many bugs in defference screens and devices)\n\nI’ll be happily to answer all your questions",
+        "subreddit": "SideProject",
+        "upvotes": 1363,
+        "comments": 184,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://i.redd.it/9oocjlub6ugf1.png",
+        "createdAt": "2025-08-03T17:06:49.000Z"
+      },
+      {
+        "title": "What no-code tools for mobile apps are y'all using these days?",
+        "content": "",
+        "subreddit": "nocode",
+        "upvotes": 3,
+        "comments": 10,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/nocode/comments/1masd03/what_nocode_tools_for_mobile_apps_are_yall_using/",
+        "createdAt": "2025-07-27T17:35:33.000Z"
+      },
+      {
+        "title": "[HIRING] 🚀 We Just Launched a New Mobile App — 100 Testers Needed TODAY!",
+        "content": "Earn $2–$5 in 3–5 Minutes! 💸\n\nHey Reddit! 👋  \nWe just launched a brand-new mobile app and we’re looking for **100 fast testers TODAY**.  \nThe task is **simple**, takes only 3–5 minutes, and **pays instantly** after proof — no signups, no personal info, no risk.\n\n💰 **What You Get:**\n\n* $2–$5 per test (varies by country)\n* Fast payment via **PayPal, Wise, Payoneer, or Crypto (USDT/BTC)**\n* **No deposit / No ID / No signup required**\n* **Bonus:** Refer friends and earn more daily\n\n✅ 100% legit — real payment proof available  \n✅ 150+ testers got paid this week  \n✅ Full guidance provided — super beginner-friendly\n\n📲 **Who Can Join:**\n\n* Anyone with a phone (Android or iOS)\n* All countries welcome\n* No experience needed\n\n🚀 **How To Start:**\n\n1. Upvote this post\n2. Comment your **country**\n3. DM me:  • First name  • Country  • Payment method\n\n📌 **Note:** We receive lots of messages. If you don’t get a reply within an hour, send us another DM with your info — we’ll prioritize you and get you paid faster.\n\n👇 Let’s go! Comment below, upvote this post &amp; check your inbox.  \nWe’ll help you earn your first $5 today — no stress, no strings attached. 💸\n\n**⏳ Reminder: If you messaged us and still didn’t get a reply, please resend your info — we’re catching up now!**",
+        "subreddit": "freelance_forhire",
+        "upvotes": 84,
+        "comments": 165,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/freelance_forhire/comments/1m2lkfq/hiring_we_just_launched_a_new_mobile_app_100/",
+        "createdAt": "2025-07-17T22:36:08.000Z"
+      },
+      {
+        "title": "I grew my mobile app to 1.4 million downloads",
+        "content": "I started developing the app in early 2017, well before the AI era, when mobile apps were at their peak popularity. My idea was to create an app for emotional and psychological support in the form of helpful articles and various quizzes, such as personality assessments and life satisfaction tests. I named the app \"Emotional Intelligence\" because this keyword showed good ASO potential for positioning at the top of mobile stores.\n\nThis proved to be accurate, and the app quickly gained traction in terms of downloads. A major problem I faced then was monetization. Unfortunately, in my country, it wasn't possible to sell through Google Play then, so I could only display ads. I started with Google AdMob, earning $2000 monthly after just a few months. The app then got about 1500 organic downloads daily and quickly surpassed 500,000.\n\nThree years after launching the app, I decided it was time for branding to build recognition. By combining the words \"sentiment\" and \"intelligence,\" I came up with \"Sintelly.\" I then pushed the app toward a social network, which differed from the right move. Adding features like discussion forums for problems, likes, and comments would result in even more growth, but the opposite happened. The app started declining, and I began investing in advertising campaigns. I managed to maintain a balance between income and expenses but without any profit. Then COVID-19 hit, and everything went downhill. I had to give up development and find a job as a developer to ensure my livelihood.\n\nTwo years passed since I gave up, and that's when ChatGPT started gaining popularity. This immediately showed me how to steer the app towards active support for well-being questions. As I'm not an expert in psychology, I found several external psychotherapists who helped me put together CBT therapy, which I then implemented through a chatbot. This is how the new Sintelly app was born, with its main feature being a chatbot system composed of 17 AI agents that adapt to the user and guide them through a five-phase CBT therapy (I'll write a post about the technology). In addition to the agents, I added various exercises and tests to provide better personalization for the user.\n\nInitially, I made all of this free, which was also a mistake. I followed the principle of first showing what the app can do and gathering enough new users before starting to charge. I started selling subscriptions at the beginning of July, and since then, the app has had stable growth.\n\nIf you want a check app, here is the [link](https://sintelly.com/download/).\n\n**Lessons learned:**\n\n* If things are working, don't touch them\n* Start selling immediately upon app release; there's no need to wait\n* Regularly test prices and types of subscriptions\n* Onboarding is the most essential part of the app because most users buy subscriptions during onboarding\n* It's essential to listen to user feedback.\n* From day one, have a website and work on content to generate organic visits and redirect users from the web to the mobile app\n\n**Stats:**\n\n* Over 1.4 million downloads\n* 4.4 rating\n* Only 40,000 active users (I had a massive loss during the period when I gave up)\n* 280 active subscribers\n* $3000 monthly revenue\n\n**Next steps:**\n\n* Work on improving the Agent AI approach\n* Setting up email campaigns and transactional emails\n* Introducing in-app and push notifications\n* Introducing gamification\n* Potential for B2B\n\nI hope you can extract useful information from my example and avoid repeating my mistakes. I'm interested in your thoughts and if you have any recommendations for the next steps. I'm always looking to learn and improve.",
+        "subreddit": "SideProject",
+        "upvotes": 429,
+        "comments": 122,
+        "sentiment": 10,
+        "url": "https://reddit.comhttps://www.reddit.com/r/SideProject/comments/1g3hrw3/i_grew_my_mobile_app_to_14_million_downloads/",
+        "createdAt": "2024-10-14T14:57:20.000Z"
+      },
+      {
+        "title": "Launched my first Mobile App - Here's my thoughts...",
+        "content": "I’ve been toying with mobile app ideas for years but never had the courage to actually build one until recently. With a background in web apps, design, and marketing, I figured developing a mobile app was the last piece of the puzzle.\n\nI decided to dive into Flutter Flow, and it was a game-changer. In just **25 days**, I managed to get a solid MVP live on the app store. Here’s what I learned along the way:\n\n* **Timebox Your Hurdles:** If something’s taking way longer than expected, set it aside. Either brainstorm a new way to tackle it or come back later with fresh eyes.\n* **Get Comfortable with Code.** Tools like VS Code and GitHub will eventually become your best friends. They will supercharge your Flutter Flow projects.\n* **Focus on One Platform:** Start with either iOS or Android (iOS might be easier) rather than trying to achieve cross-platform compatibility from the start.\n* **Keep Login Simple:** Social logins can wait. For your MVP, a basic email and password are enough to test your idea and gather feedback.\n* **Ship Early, Ship Often:** Don’t stress over bundling everything into big, infrequent updates. Regular, smaller pushes keep you agile and responsive.\n\nGood luck out there!\n\nCurious about what I built? [Check it out here.](https://www.enterkey.app/)",
+        "subreddit": "nocode",
+        "upvotes": 27,
+        "comments": 11,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/nocode/comments/1iu9cs4/launched_my_first_mobile_app_heres_my_thoughts/",
+        "createdAt": "2025-02-20T21:05:28.000Z"
+      },
+      {
+        "title": "What is the best and cost effective no code mobile app development app?",
+        "content": "Hi,\n\nI am quite new to app development. I want to build and launch some apps on Android (first). There are no code apps around, but I am not sure which ones are good for beginners.\n\nI know HTML, CSS, and how functions are formed, but I have no experience developing an app. So I am looking for an app that helps me build and upload to the store with AI.\n\nThe app should be easy like Lovable. But Lovable is for web apps.",
+        "subreddit": "nocode",
+        "upvotes": 19,
+        "comments": 42,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/nocode/comments/1lw5icp/what_is_the_best_and_cost_effective_no_code/",
+        "createdAt": "2025-07-10T06:17:23.000Z"
+      },
+      {
+        "title": "Mobile apps are the dropshipping of 2025.",
+        "content": "Hey guys!   \nI don't know if I'm the only one who's noticed, but mobile apps are currently the dropshipping of 2025.\n\nI see everyone creating mobile apps on X. I go to the app store and any search shows five new apps for that niche.\n\nCursor and Claude Code have undoubtedly lowered the technical requirements, and most have entered the mobile app world.\n\nI'm not complaining about the competition or anything, it's just an observation.",
+        "subreddit": "iOSProgramming",
+        "upvotes": 107,
+        "comments": 96,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/iOSProgramming/comments/1m5t8ad/mobile_apps_are_the_dropshipping_of_2025/",
+        "createdAt": "2025-07-21T19:58:23.000Z"
+      },
+      {
+        "title": "Why aren't more people using the mobile app?",
+        "content": "Not a complaint because this actually benefited me... flew in to ORD yesterday, and breezed through with the mobile app. The line for the kiosks was at least 30-40 people long. No wait for going through if you had registered with the app. \n\nDo most people with GE just not know that the app exists?\n\n",
+        "subreddit": "GlobalEntry",
+        "upvotes": 44,
+        "comments": 72,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/GlobalEntry/comments/1l1iu3z/why_arent_more_people_using_the_mobile_app/",
+        "createdAt": "2025-06-02T14:02:45.000Z"
+      },
+      {
+        "title": "The Biggest Things I've Learned Launching a Growing Mobile App",
+        "content": "I left my software engineering job a few months ago to work on an interactive AI journaling app full-time with my friend. We recently launched it and have had better-than-expected traction! (\\~100 monthly active users) Which has been awesome. Here are the things I've learned from working on it:\n\n1. Know the Business\n\nIf you're working in the paid app market, the core business metric is the Lifetime Value (LTV) of a customer minus the Cost of Acquisition (CAC), LTV - CAC. If on average, the amount of money a user pays before they leave your app is more than the average cost to acquire a user, you are profitable. These are the 2 main levers to work on while building an app. LTV is more product-based, and CAC is more marketing-based. You can either improve your product and have people stay for longer / pay more or improve your marketing and lower your cost to get new users.\n\n2. Have In-App Analytics\n\nThis is the MOST IMPORTANT THING. I've been at growing startups before where, at launch, we don't know who is using the app, what they're doing on it, etc. It makes it almost impossible to understand what to improve, loved features, etc.\n\nWe use PostHog. Just like there is Google Analytics for websites, there are event trackers for apps. There are a bunch out there, but I found PostHog the most startup-friendly in terms of free programs and credits to not break the bank while starting out. For each important user interaction, fire an event to PostHog, and then you can track how users are progressing through your app. 80% of downloads opened the app, 50% made an account, etc. With this information, you can see your true bottlenecks as you scale.\n\n3. Optimize your App Store Page for Keywords\n\nThe real balance is striking something that sounds nice to humans AND machines. The biggest thing that helped here is keeping the name unique to your industry, keeping it short (to fit more keywords on the title), and stuffing keywords into your description. This allows for search to properly index your App and reach a wider audience organically.\n\nWhen thinking of a name, simply search the app store for what you're thinking and see if there's any big names / a lot of competition that comes up. If so, think of another. There's nothing worse than someone searching for your app on the App Store and not being able to find it / being poached by a competitor.\n\n4. Find Ad Keywords that aren't Popular Yet\n\nONLY RELEVANT IF YOU'RE PAYING FOR ADS\n\nA digital marketing friend explained to me that when adding keywords to your ads, try to find ones that seem to be growing in popularity but haven't been used by other companies much. For instance, in the wellness space, \"nervous system\" is becoming a popular topic, but there isn't much bidding on the keyword in the ad space. So I'm getting cheaper impressions and clicks then more bid on keywords. Usually being in touch with what is trending on social media is helpful.\n\n5. Connect Analytics to Ads\n\nONLY RELEVANT IF YOU'RE PAYING FOR ADS\n\nThe best way to optimize your ads is to give your ad systems the most valuable data possible, usage. Almost all analytics tools (PostHog, Amplitude, etc.) will have integrations with ad systems (Google, Apple, Meta) where you can send attribution data to them. This means you can track someone from an ad and how far they got into your app (download, signup, recurring use, paid, etc.). This will allow the ad system to optimize your ad for the highest quality leads, therefore making your ad campaign more efficient.\n\nFeel free to comment or DM if you have any questions! ",
+        "subreddit": "Entrepreneur",
+        "upvotes": 4,
+        "comments": 7,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/Entrepreneur/comments/1lp2sim/the_biggest_things_ive_learned_launching_a/",
+        "createdAt": "2025-07-01T14:15:18.000Z"
+      },
+      {
+        "title": "Mobile app?",
+        "content": "What’s the deal with the mobile app? Is there one? I use Pikapods",
+        "subreddit": "actualbudgeting",
+        "upvotes": 4,
+        "comments": 6,
+        "sentiment": 5,
+        "url": "https://reddit.comhttps://www.reddit.com/r/actualbudgeting/comments/1h5hvp5/mobile_app/",
+        "createdAt": "2024-12-03T07:14:35.000Z"
+      }
+    ],
+    "sentiment": 5.5,
+    "painPoints": [
+      "a major problem i faced then was monetization",
+      "not a complaint because this actually benefited me"
+    ],
+    "discussionVolume": 50,
+    "engagementLevel": 350.66,
+    "score": 69
+  },
+  "createdAt": "2025-08-07T18:18:06.473Z",
+  "expiresAt": "2025-08-07T19:18:06.473Z",
+  "ttl": 3600
+}

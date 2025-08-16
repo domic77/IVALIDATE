@@ -1,0 +1,46 @@
+{
+  "data": {
+    "keyword": "idea",
+    "timeframe": "12m",
+    "searchVolume": [
+      46,
+      44,
+      61,
+      68,
+      62,
+      63,
+      54,
+      40,
+      36,
+      38,
+      49,
+      55
+    ],
+    "growthRate": -5.960264900662252,
+    "relatedQueries": [
+      "idea software",
+      "idea app",
+      "idea tool",
+      "idea platform",
+      "idea service",
+      "idea solution",
+      "best idea"
+    ],
+    "regionalInterest": {
+      "United States": 1,
+      "United Kingdom": 1,
+      "Canada": 2,
+      "Germany": 17,
+      "France": 7,
+      "Australia": 22,
+      "India": 12,
+      "Brazil": 38
+    },
+    "seasonality": 20.04590784471835,
+    "consistency": 79.95409215528164,
+    "score": 65
+  },
+  "createdAt": "2025-08-07T18:11:08.021Z",
+  "expiresAt": "2025-08-08T00:11:08.021Z",
+  "ttl": 21600
+}

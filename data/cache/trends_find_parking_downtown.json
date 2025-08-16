@@ -1,0 +1,44 @@
+{
+  "data": {
+    "keyword": "find parking downtown",
+    "timeframe": "12m",
+    "searchVolume": [
+      117,
+      149,
+      161,
+      175,
+      157,
+      145,
+      133,
+      119,
+      136,
+      134,
+      149,
+      130
+    ],
+    "growthRate": -3.2786885245901773,
+    "relatedQueries": [
+      "find parking near me",
+      "cheap parking downtown",
+      "city center parking cost",
+      "real-time parking availability app",
+      "parking app market size 2024"
+    ],
+    "regionalInterest": {
+      "United States": 5,
+      "United Kingdom": 2,
+      "Canada": 5,
+      "Germany": 4,
+      "France": 13,
+      "Australia": 4,
+      "India": 24,
+      "Brazil": 43
+    },
+    "seasonality": 11.60208625637944,
+    "consistency": 88.39791374362056,
+    "score": 72
+  },
+  "createdAt": "2025-08-08T07:39:44.584Z",
+  "expiresAt": "2025-08-08T13:39:44.584Z",
+  "ttl": 21600
+}

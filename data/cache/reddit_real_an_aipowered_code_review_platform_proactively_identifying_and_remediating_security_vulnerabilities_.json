@@ -1,0 +1,241 @@
+{
+  "data": {
+    "posts": [
+      {
+        "title": "\"I feel like most teams still juggle 4-5 scanners and still can’t answer “what’s the top vuln to fix ...\"",
+        "content": "I feel like most teams still juggle 4-5 scanners and still can’t answer “what’s the top vuln to fix right now?",
+        "subreddit": "devsecops",
+        "upvotes": 8,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cjmqoc/is_there_a_real_need_for_a_unified_platform_that/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"imho the real benefit is to find a platform that: a) integrates with all your existing tools b) dedu...\"",
+        "content": "imho the real benefit is to find a platform that: a) integrates with all your existing tools b) deduplicates findings c) adds context so you can prioritize.",
+        "subreddit": "devsecops",
+        "upvotes": 8,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cjmqoc/is_there_a_real_need_for_a_unified_platform_that/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"SCA without reachability analysis is a non starter these days and the developer workflow, consolidat...\"",
+        "content": "SCA without reachability analysis is a non starter these days and the developer workflow, consolidation, prioritization etc are crucial to get buy in from devs.",
+        "subreddit": "devsecops",
+        "upvotes": 22,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cjx64m/what_is_the_best_static_software_composition/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"Good insight - we've been trying to shift left too but having trouble finding the right tools for it...\"",
+        "content": "Good insight - we've been trying to shift left too but having trouble finding the right tools for it. Traditional vulnerability scanners aren't cutting it for us, they're just overwhelming our team with alerts. If anyone has any tools recs that help with remediating cves that would be awesome",
+        "subreddit": "devsecops",
+        "upvotes": 3,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cj3a0k/caught_a_major_sql_injection_vulnerability_right/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"Shifting left is not simply moving responsibilities around and taking work from security professiona...\"",
+        "content": "Shifting left is not simply moving responsibilities around and taking work from security professionals and adding it to the developers' tasks. If devs are burdened with not only coding but also scanning for, prioritizing and remediating security issues they will suffer job burn out as well as miss security vulnerabilities.",
+        "subreddit": "devsecops",
+        "upvotes": 9,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "https://www.reddit.com/r/devsecops/comments/1ciy5u8/devsecops_intro_training/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"Removing the burden of deduplicating and prioritizing detected vulnerabilities from developers. Inst...\"",
+        "content": "Removing the burden of deduplicating and prioritizing detected vulnerabilities from developers. Instead, security should ensure developers get a fully processed vulnerability list in a timely manner.",
+        "subreddit": "devsecops",
+        "upvotes": 9,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "https://www.reddit.com/r/devsecops/comments/1ciy5u8/devsecops_intro_training/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"Accelerating remediation by generating actionable developer-oriented guidance for understanding and ...\"",
+        "content": "Accelerating remediation by generating actionable developer-oriented guidance for understanding and resolving each vulnerability.",
+        "subreddit": "devsecops",
+        "upvotes": 9,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "https://www.reddit.com/r/devsecops/comments/1ciy5u8/devsecops_intro_training/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"The other day, Copilot insisted that I move from a pinned hash github action, to a @latest. Spent th...\"",
+        "content": "The other day, Copilot insisted that I move from a pinned hash github action, to a @latest. Spent the rest of the day tuning the prompt, and running around all our PRs to correct this actively harmful recommendation",
+        "subreddit": "devsecops",
+        "upvotes": 3,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cihaxj/automating_security_code_reviews_with_claude/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"Managing security policies across multiple clouds was more complex than expected. Ensuring automatio...\"",
+        "content": "Managing security policies across multiple clouds was more complex than expected. Ensuring automation and consistency was a major hurdle.",
+        "subreddit": "devsecops",
+        "upvotes": 20,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cn962s/implementing_devsecops_in_a_multicloud/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"Vulnerability management in CI/CD pipelines: We used tools like Trivy, but managing vulnerabilities ...\"",
+        "content": "Vulnerability management in CI/CD pipelines: We used tools like Trivy, but managing vulnerabilities across providers highlighted the need for more automation and centralization.",
+        "subreddit": "devsecops",
+        "upvotes": 20,
+        "comments": 0,
+        "sentiment": 5,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cn962s/implementing_devsecops_in_a_multicloud/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"How do I make sure every team is actually following our security standards on every single project? ...\"",
+        "content": "How do I make sure every team is actually following our security standards on every single project? It feels like herding cats and manual reviews just don't scale.",
+        "subreddit": "devsecops",
+        "upvotes": 2,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://www.reddit.com/r/devsecops/comments/1chk96j/keeping_all_your_cloud_projects_consistently/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"Traditional vulnerability scanners aren't cutting it for us, they're just overwhelming our team with...\"",
+        "content": "Traditional vulnerability scanners aren't cutting it for us, they're just overwhelming our team with alerts.",
+        "subreddit": "devsecops",
+        "upvotes": 3,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cj3a0k/caught_a_major_sql_injection_vulnerability_right/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      },
+      {
+        "title": "\"this is going to increase noise, and the noise from LLMs is often lower quality than the noise from ...\"",
+        "content": "this is going to increase noise, and the noise from LLMs is often lower quality than the noise from proper scan tools. Maybe it'll help in some shops, but I'm really skeptical that this is going to prove valuable at scale",
+        "subreddit": "devsecops",
+        "upvotes": 3,
+        "comments": 0,
+        "sentiment": 3,
+        "url": "https://www.reddit.com/r/devsecops/comments/1cihaxj/automating_security_code_reviews_with_claude/",
+        "createdAt": "2025-08-14T19:17:17.900Z"
+      }
+    ],
+    "sentiment": 4,
+    "painPoints": [
+      "Vulnerability prioritization is difficult with current tooling",
+      "Alert fatigue from overwhelming number of scanner results",
+      "Lack of actionable remediation guidance",
+      "Difficulty enforcing security standards across multiple teams/projects",
+      "Managing security in multi-cloud environments",
+      "Developer burnout from security tasks",
+      "AI tools can be inaccurate and generate noise",
+      "Existing code review processes are manual and time consuming"
+    ],
+    "discussionVolume": 13,
+    "engagementLevel": 9.153846153846153,
+    "score": 45,
+    "realData": {
+      "totalMentions": 13,
+      "frustratedUsers": 6,
+      "neutralUsers": 7,
+      "satisfiedUsers": 0,
+      "totalRelevantPosts": 13,
+      "overallSentiment": 4.2,
+      "frustrationLevel": 0.6,
+      "keyInsights": [
+        "There is demand for a unified platform that integrates with existing tools and provides context-aware prioritization.",
+        "Shifting security left is seen as valuable, but requires the right tooling and support to avoid overwhelming developers.",
+        "Reachability analysis is considered a key factor for effective SCA.",
+        "Automation and centralization of security policies are crucial in multi-cloud environments.",
+        "The market is crowded with tools, need to differentiate with focus on accuracy and ease of use."
+      ],
+      "topQuotes": [
+        {
+          "quote": "SCA without reachability analysis is a non starter these days and the developer workflow, consolidation, prioritization etc are crucial to get buy in from devs.",
+          "author": "nosleeptiltomorrow",
+          "subreddit": "devsecops",
+          "upvotes": 22,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Managing security policies across multiple clouds was more complex than expected. Ensuring automation and consistency was a major hurdle.",
+          "author": "Soni4_91",
+          "subreddit": "devsecops",
+          "upvotes": 20,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Vulnerability management in CI/CD pipelines: We used tools like Trivy, but managing vulnerabilities across providers highlighted the need for more automation and centralization.",
+          "author": "Soni4_91",
+          "subreddit": "devsecops",
+          "upvotes": 20,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Shifting left is not simply moving responsibilities around and taking work from security professionals and adding it to the developers' tasks. If devs are burdened with not only coding but also scanning for, prioritizing and remediating security issues they will suffer job burn out as well as miss security vulnerabilities.",
+          "author": "LachanophobiaPopeye",
+          "subreddit": "devsecops",
+          "upvotes": 9,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Removing the burden of deduplicating and prioritizing detected vulnerabilities from developers. Instead, security should ensure developers get a fully processed vulnerability list in a timely manner.",
+          "author": "LachanophobiaPopeye",
+          "subreddit": "devsecops",
+          "upvotes": 9,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Accelerating remediation by generating actionable developer-oriented guidance for understanding and resolving each vulnerability.",
+          "author": "LachanophobiaPopeye",
+          "subreddit": "devsecops",
+          "upvotes": 9,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "I feel like most teams still juggle 4-5 scanners and still can’t answer “what’s the top vuln to fix right now?",
+          "author": "efranklin0",
+          "subreddit": "devsecops",
+          "upvotes": 8,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "imho the real benefit is to find a platform that: a) integrates with all your existing tools b) deduplicates findings c) adds context so you can prioritize.",
+          "author": "efranklin0",
+          "subreddit": "devsecops",
+          "upvotes": 8,
+          "sentiment": "neutral"
+        },
+        {
+          "quote": "Good insight - we've been trying to shift left too but having trouble finding the right tools for it. Traditional vulnerability scanners aren't cutting it for us, they're just overwhelming our team with alerts. If anyone has any tools recs that help with remediating cves that would be awesome",
+          "author": "tman968",
+          "subreddit": "devsecops",
+          "upvotes": 3,
+          "sentiment": "frustrated"
+        },
+        {
+          "quote": "The other day, Copilot insisted that I move from a pinned hash github action, to a @latest. Spent the rest of the day tuning the prompt, and running around all our PRs to correct this actively harmful recommendation",
+          "author": "ScottContini",
+          "subreddit": "devsecops",
+          "upvotes": 3,
+          "sentiment": "frustrated"
+        }
+      ]
+    }
+  },
+  "createdAt": "2025-08-14T19:17:17.945Z",
+  "expiresAt": "2025-08-14T21:17:17.945Z",
+  "ttl": 7200
+}

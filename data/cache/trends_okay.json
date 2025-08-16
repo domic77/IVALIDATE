@@ -1,0 +1,46 @@
+{
+  "data": {
+    "keyword": "okay",
+    "timeframe": "12m",
+    "searchVolume": [
+      75,
+      77,
+      68,
+      71,
+      75,
+      68,
+      63,
+      71,
+      51,
+      45,
+      65,
+      69
+    ],
+    "growthRate": -18.636363636363633,
+    "relatedQueries": [
+      "okay software",
+      "okay app",
+      "okay tool",
+      "okay platform",
+      "okay service",
+      "okay solution",
+      "best okay"
+    ],
+    "regionalInterest": {
+      "United States": 9,
+      "United Kingdom": 7,
+      "Canada": 4,
+      "Germany": 2,
+      "France": 18,
+      "Australia": 1,
+      "India": 12,
+      "Brazil": 47
+    },
+    "seasonality": 13.884349859112321,
+    "consistency": 86.11565014088768,
+    "score": 61
+  },
+  "createdAt": "2025-08-07T18:09:23.246Z",
+  "expiresAt": "2025-08-08T00:09:23.246Z",
+  "ttl": 21600
+}
