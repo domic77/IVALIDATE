@@ -281,7 +281,7 @@ export function ScalabilityCard({ scalabilityData }: ScalabilityCardProps) {
         {/* Infrastructure Needs - Only show if we have data */}
         {infrastructureNeeds && (infrastructureNeeds.technology?.length > 0 || infrastructureNeeds.operations?.length > 0 || infrastructureNeeds.team?.length > 0 || infrastructureNeeds.funding) && (
           <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
-            <h4 className="text-sm font-semibold text-purple-800 mb-3">What You'll Need to Grow</h4>
+            <h4 className="text-sm font-semibold text-purple-800 mb-3">What You&apos;ll Need to Grow</h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
               {infrastructureNeeds.technology && infrastructureNeeds.technology.length > 0 && (
                 <div>

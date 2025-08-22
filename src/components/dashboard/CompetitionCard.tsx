@@ -130,7 +130,7 @@ export function CompetitionCard({ competitorData, realData }: CompetitionCardPro
                       </Badge>
                     )}
                   </div>
-                  <p className="text-sm text-gray-700 mb-2">"{complaint.complaint}"</p>
+                  <p className="text-sm text-gray-700 mb-2">&quot;{complaint.complaint}&quot;</p>
                   {complaint.author && complaint.subreddit && (
                     <div className="text-xs text-gray-500">
                       u/{complaint.author} • r/{complaint.subreddit}

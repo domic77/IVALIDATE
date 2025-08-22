@@ -68,7 +68,7 @@ export function MarketDemandCard({ redditData, realData }: MarketDemandCardProps
             <div className="space-y-3 max-h-64 overflow-y-auto">
               {topQuotes.slice(0, 4).map((quote: any, index: number) => (
                 <div key={index} className={`p-3 border rounded-lg ${sentimentColors[quote.sentiment as keyof typeof sentimentColors]}`}>
-                  <p className="text-sm font-medium mb-2">"{quote.quote}"</p>
+                  <p className="text-sm font-medium mb-2">&quot;{quote.quote}&quot;</p>
                   <div className="flex items-center justify-between text-xs">
                     <div className="flex items-center gap-2">
                       <span className="font-medium">u/{quote.author}</span>
