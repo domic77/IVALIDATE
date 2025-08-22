@@ -56,7 +56,7 @@ async function extractKeywordsAI(text: string): Promise<string[]> {
     return keywords;
   } catch (error) {
     console.error('Gemini keyword extraction failed:', error);
-    throw error;
+    throw new Error('Gemini keyword extraction failed', { cause: error });
   }
 }
 
