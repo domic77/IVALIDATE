@@ -68,36 +68,7 @@ export async function extractKeywordsWithBestAI(
 
   } catch (error) {
     console.error('❌ Gemini keyword extraction failed:', error);
+    throw error; // Don't fallback, just crash
   }
-
-  // Fallback to manual extraction if Gemini fails
-  console.warn('🔧 Gemini failed, using manual keyword extraction');
-  
-  const words = text.toLowerCase().replace(/[^\w\s]/g, ' ').split(/\s+/);
-  const keywords: string[] = [];
-  
-  // Add key single words (excluding common stop words)
-  const stopWords = ['the', 'and', 'for', 'with', 'that', 'this', 'will', 'can', 'are', 'have', 'would', 'could', 'should', 'from', 'they', 'them', 'than', 'their'];
-  const meaningfulWords = words
-    .filter(word => word.length > 3 && !stopWords.includes(word))
-    .slice(0, 5);
-  keywords.push(...meaningfulWords);
-  
-  // Add common problem/solution keywords if they appear
-  const problemWords = ['problem', 'issue', 'frustrating', 'difficult', 'hard', 'expensive', 'slow', 'complex'];
-  const solutionWords = ['solution', 'app', 'platform', 'service', 'tool', 'system', 'software', 'management', 'tracking'];
-  
-  [...problemWords, ...solutionWords].forEach(term => {
-    if (text.toLowerCase().includes(term) && !keywords.includes(term)) {
-      keywords.push(term);
-    }
-  });
-  
-  console.log('🔧 Manual keywords generated:', keywords.slice(0, 8));
-  
-  return {
-    keywords: keywords.slice(0, 8),
-    provider: 'manual-fallback'
-  };
 }
 

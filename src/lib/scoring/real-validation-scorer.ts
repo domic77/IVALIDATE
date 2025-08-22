@@ -74,19 +74,23 @@ export function calculateMarketDemandScore(redditData: RedditInsight): RealValid
   ];
   
   let severityMentions = 0;
-  topQuotes.forEach(quote => {
-    const quoteText = quote.quote.toLowerCase();
-    highSeverityKeywords.forEach(keyword => {
-      if (quoteText.includes(keyword)) {
-        severityMentions++;
-        
-        // Extra points for specific financial mentions
-        if (quoteText.match(/\$\d+/)) severityScore += 5;
-        if (quoteText.includes('thousand') || quoteText.includes('k ')) severityScore += 3;
-        if (quoteText.includes('hours') || quoteText.includes('days')) severityScore += 2;
-      }
+  if (!topQuotes || topQuotes.length === 0) {
+    severityScore = 0;
+  } else {
+    topQuotes.forEach(quote => {
+      const quoteText = quote.quote.toLowerCase();
+      highSeverityKeywords.forEach(keyword => {
+        if (quoteText.includes(keyword)) {
+          severityMentions++;
+          
+          // Extra points for specific financial mentions
+          if (quoteText.match(/\$\d+/)) severityScore += 5;
+          if (quoteText.includes('thousand') || quoteText.includes('k ')) severityScore += 3;
+          if (quoteText.includes('hours') || quoteText.includes('days')) severityScore += 2;
+        }
+      });
     });
-  });
+  }
   
   severityScore = Math.min(severityScore + (severityMentions * 2), 25);
 

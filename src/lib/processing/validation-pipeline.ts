@@ -239,7 +239,7 @@ Focus on:
             throw aiError;
           }
         } else {
-          throw new Error('Refined idea data required for AI-powered validation pipeline');
+          throw new Error('Refined idea data REQUIRED - no fallback available');
         }
         
         return {
@@ -511,7 +511,7 @@ Focus on:
           }
         };
 
-        await this.updateStepStatus(11, 'completed', `Validation complete! Grade: ${finalScore.grade} (${totalDataPoints} data points analyzed)`);
+        await this.updateStepStatus(10, 'completed', `Validation complete! Grade: ${finalScore.grade} (${totalDataPoints} data points analyzed)`);
         
         return { success: true, data: finalScore, dataPoints: totalDataPoints };
       });

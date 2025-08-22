@@ -59,10 +59,10 @@ export default function DashboardPage() {
           return;
         }
 
-        // Map the API response to what dashboard components expect
-        const socialIntelligence = data.data.score?.evidenceReport?.socialIntelligence;
-        const competitionAnalysis = data.data.score?.evidenceReport?.competitionAnalysis;
-        const realData = data.data.score?.realData;
+        // Map the API response to what dashboard components expect with safe defaults
+        const socialIntelligence = data.data.score?.evidenceReport?.socialIntelligence || {};
+        const competitionAnalysis = data.data.score?.evidenceReport?.competitionAnalysis || {};
+        const realData = data.data.score?.realData || {};
         
         // Extract AI research data from the pipeline results
         const marketSizeData = data.data.marketSizeData;

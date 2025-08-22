@@ -50,10 +50,13 @@ async function extractKeywordsAI(text: string): Promise<string[]> {
       .filter(k => k.length > 2 && k.length < 30)
       .slice(0, 8);
 
-    return keywords.length > 0 ? keywords : extractKeywordsManual(text);
+    if (keywords.length === 0) {
+      throw new Error('Gemini returned no keywords');
+    }
+    return keywords;
   } catch (error) {
     console.error('Gemini keyword extraction failed:', error);
-    return extractKeywordsManual(text);
+    throw error;
   }
 }
 

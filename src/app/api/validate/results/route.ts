@@ -30,11 +30,11 @@ export async function GET(request: NextRequest) {
       return NextResponse.json(response, { status: 404 });
     }
 
-    // Check if validation is completed
-    if (validation.status !== 'COMPLETED') {
+    // Check if validation has usable data (allow failed validations with data)
+    if (validation.status === 'PROCESSING' || !validation.finalScore) {
       const response: ApiResponse = {
         success: false,
-        error: 'Validation not completed',
+        error: 'Validation not ready',
         message: `Validation is still ${validation.status.toLowerCase()}. Current progress: ${validation.progress}%`,
       };
       return NextResponse.json(response, { status: 400 });

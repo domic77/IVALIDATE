@@ -329,7 +329,7 @@ export async function searchRedditDiscussions(
     });
     
     // NO FALLBACK - throw the error so validation fails
-    throw error;
+    throw new Error(`Reddit analysis failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
   }
 }
 
