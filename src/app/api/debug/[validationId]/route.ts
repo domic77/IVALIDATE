@@ -3,10 +3,10 @@ import { getDebugLogs, createDebugSummary } from '@/lib/storage/debug-storage';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { validationId: string } }
+  { params }: { params: Promise<{ validationId: string }> }
 ) {
   try {
-    const { validationId } = params;
+    const { validationId } = await params;
 
     if (!validationId) {
       return NextResponse.json({ error: 'Validation ID required' }, { status: 400 });
@@ -32,10 +32,10 @@ export async function GET(
 // Get raw debug logs
 export async function POST(
   request: NextRequest,
-  { params }: { params: { validationId: string } }
+  { params }: { params: Promise<{ validationId: string }> }
 ) {
   try {
-    const { validationId } = params;
+    const { validationId } = await params;
     const body = await request.json();
     const { raw } = body;
 
