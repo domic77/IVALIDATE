@@ -146,24 +146,30 @@ export class ValidationPipeline {
             const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
             const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
             
-            const prompt = `You are a Reddit expert who knows the most active, relevant communities for any topic. Analyze this startup idea and find the MOST SPECIFIC subreddits where people actually discuss this exact problem:
+            const prompt = `You are a Reddit researcher who finds REAL, EXISTING subreddits by researching online communities. Your job is to identify actual subreddits where people discuss problems related to this startup idea.
 
 STARTUP IDEA: "${this.refinedIdeaData.oneLiner}"
 TARGET AUDIENCE: "${this.refinedIdeaData.targetAudience}"  
 PROBLEM SOLVED: "${this.refinedIdeaData.problem}"
 
-Find subreddits where:
-1. People ACTIVELY complain about this specific problem
-2. Your target audience hangs out and asks questions  
-3. Users share frustrations and seek solutions
-4. High engagement with problem-related posts
+CRITICAL REQUIREMENTS:
+1. Only suggest subreddits that ACTUALLY EXIST on Reddit (verify they're real)
+2. Focus on subreddits with ACTIVE communities (not dead/inactive ones)
+3. Find communities where the TARGET AUDIENCE actively discusses PROBLEMS
+4. Research subreddits where people complain, ask for help, or seek solutions
 
-Prioritize NICHE, specific communities over generic ones. For example:
-- Instead of "business" → "sweatystartup", "ecommerce"  
-- Instead of "technology" → "webdev", "sysadmin"
-- Instead of "food" → "KitchenConfidential", "MealPrepSunday"
+Research methodology:
+- Think about where your target audience congregates online
+- Consider problem-specific communities (not just broad industry topics)
+- Look for frustration-based discussions, help-seeking posts
+- Verify subreddit names are correct (exact spelling is critical)
 
-Search for the most laser-focused, problem-specific communities.
+Examples of PROPER research approach:
+- For restaurant management → "KitchenConfidential" (verified real, active, problem-focused)
+- For parking issues → "mildlyinfuriating" (verified real, people complain about parking)
+- For small business → "sweatystartup" (verified real, active entrepreneurship community)
+
+ONLY suggest subreddits you're confident exist and have active communities.
 
 IMPORTANT: Respond with ONLY valid JSON in this exact format. No markdown, no additional text:
 

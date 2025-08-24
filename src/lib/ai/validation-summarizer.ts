@@ -147,20 +147,40 @@ Be objective and base recommendations strictly on the data provided.`;
 
     console.log('🤖 AI validation summary response:', aiText.substring(0, 200) + '...');
 
-    // Parse the JSON response
+    // Parse the JSON response with robust handling
     let summary: ValidationSummary;
     try {
-      let cleanText = aiText.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+      let cleanText = aiText.trim();
       
+      // Remove ALL markdown formatting completely
+      cleanText = cleanText
+        .replace(/```json\n?/gi, '')
+        .replace(/```\n?/gi, '')
+        .replace(/^```/g, '')
+        .replace(/```$/g, '')
+        .trim();
+      
+      // Extract JSON from response (find first complete JSON object)
       const jsonMatch = cleanText.match(/\{[\s\S]*\}/);
       if (jsonMatch) {
         cleanText = jsonMatch[0];
       }
       
+      // Conservative JSON cleaning - only fix obvious issues
+      cleanText = cleanText
+        // Remove any trailing commas before closing braces/brackets
+        .replace(/,(\s*[}\]])/g, '$1')
+        // Fix unescaped newlines within string values only
+        .replace(/("reasoning"\s*:\s*"[^"]*)\n([^"]*")/g, '$1\\n$2')
+        .replace(/("description"\s*:\s*"[^"]*)\n([^"]*")/g, '$1\\n$2');
+      
+      console.log('🧹 Final cleaned text:', cleanText.substring(0, 300));
+      
       summary = JSON.parse(cleanText);
     } catch (parseError) {
-      console.error('❌ JSON parse error:', parseError);
-      console.error('Raw AI response:', aiText);
+      console.error('❌ JSON parse error in validation summary:', parseError);
+      console.error('📄 Full AI response for debugging:', aiText);
+      console.error('📄 Cleaned text that failed:', cleanText?.substring(0, 500));
       throw new Error(`Failed to parse AI summary response: ${parseError instanceof Error ? parseError.message : 'Unknown parse error'}`);
     }
 

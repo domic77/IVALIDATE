@@ -334,20 +334,8 @@ export async function searchRedditDiscussions(
 }
 
 function getTargetSubreddits(idea: string): string[] {
-  const subreddits = [...CORE_SUBREDDITS];
-  const ideaLower = idea.toLowerCase();
-  
-  // Find 3 industry-specific subreddits
-  let industryCount = 0;
-  for (const [keyword, relatedSubs] of Object.entries(INDUSTRY_SUBREDDITS)) {
-    if (ideaLower.includes(keyword) && industryCount < 3) {
-      subreddits.push(...relatedSubs.slice(0, 2));
-      industryCount++;
-    }
-  }
-  
-  // Remove duplicates and limit to 6 total
-  return [...new Set(subreddits)].slice(0, 6);
+  // NO FALLBACK - AI must provide subreddits
+  throw new Error('AI-generated subreddits required - no fallback subreddit selection available');
 }
 
 function generateProblemQueries(keywords: string[], idea: string): string[] {
@@ -372,21 +360,50 @@ function generateProblemQueries(keywords: string[], idea: string): string[] {
 async function searchSubreddit(subreddit: string, query: string): Promise<any[]> {
   const searchUrl = `https://www.reddit.com/r/${subreddit}/search.json`;
   
-  const response = await axios.get<RedditApiResponse>(searchUrl, {
-    params: {
-      q: query,
-      sort: 'relevance',
-      limit: 10,
-      t: 'year', // Last 6 months to year
-      restrict_sr: 'on'
-    },
-    headers: {
-      'User-Agent': 'iValidate/1.0 (Research Tool)'
-    },
-    timeout: 8000
-  });
+  // First validate subreddit exists - NO FALLBACKS
+  try {
+    const subredditCheckUrl = `https://www.reddit.com/r/${subreddit}/about.json`;
+    await axios.get(subredditCheckUrl, {
+      headers: { 'User-Agent': 'iValidate/1.0 (Research Tool)' },
+      timeout: 5000
+    });
+  } catch (error) {
+    console.warn(`❌ Subreddit r/${subreddit} doesn't exist or is private - FAILING (no fallbacks)`);
+    throw new Error(`Subreddit r/${subreddit} is invalid or inaccessible`);
+  }
 
-  return response.data?.data?.children?.map(child => child.data) || [];
+  // Attempt search with retries but NO fallback data
+  let retries = 3;
+  while (retries > 0) {
+    try {
+      const response = await axios.get<RedditApiResponse>(searchUrl, {
+        params: {
+          q: query,
+          sort: 'relevance',
+          limit: 15, // Increased for better data
+          t: 'year',
+          restrict_sr: 'on'
+        },
+        headers: {
+          'User-Agent': 'iValidate/1.0 (Research Tool)'
+        },
+        timeout: 15000 // Increased timeout for real requests
+      });
+
+      return response.data?.data?.children?.map(child => child.data) || [];
+    } catch (error) {
+      retries--;
+      if (retries > 0) {
+        console.log(`⚠️ Retry ${4 - retries} for r/${subreddit} search: ${query}`);
+        await sleep(3000); // Longer wait to avoid rate limits
+      } else {
+        console.error(`❌ Failed to search r/${subreddit} after 3 attempts - FAILING (no fallbacks)`);
+        throw new Error(`Reddit search failed for r/${subreddit} after multiple attempts`);
+      }
+    }
+  }
+  
+  throw new Error(`Reddit search exhausted retries for r/${subreddit}`);
 }
 
 async function getPostComments(permalink: string): Promise<any[]> {

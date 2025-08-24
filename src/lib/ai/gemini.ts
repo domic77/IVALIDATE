@@ -78,20 +78,80 @@ Return only the JSON response, no additional text.
     console.log('✅ Gemini API response received');
     console.log('📝 Raw response (first 200 chars):', text.substring(0, 200));
     
-    // Clean and parse JSON response
+    // Clean and parse JSON response with robust handling
     let cleanText = text.trim();
     
-    // Remove markdown code blocks if present
-    if (cleanText.startsWith('```json')) {
-      cleanText = cleanText.replace(/```json\n?/g, '').replace(/```\n?$/g, '');
-    } else if (cleanText.startsWith('```')) {
-      cleanText = cleanText.replace(/```\n?/g, '').replace(/```\n?$/g, '');
+    // Simple and reliable JSON extraction
+    console.log('🔍 Original response length:', cleanText.length);
+    
+    // Remove markdown blocks - be very explicit
+    if (cleanText.includes('```json')) {
+      const startIndex = cleanText.indexOf('```json') + 7;
+      const endIndex = cleanText.lastIndexOf('```');
+      if (startIndex > 7 && endIndex > startIndex) {
+        cleanText = cleanText.substring(startIndex, endIndex).trim();
+      }
+    } else if (cleanText.includes('```')) {
+      const startIndex = cleanText.indexOf('```') + 3;
+      const endIndex = cleanText.lastIndexOf('```');
+      if (startIndex > 3 && endIndex > startIndex) {
+        cleanText = cleanText.substring(startIndex, endIndex).trim();
+      }
     }
+    
+    // Extract just the JSON object - find first { and last }
+    const firstBrace = cleanText.indexOf('{');
+    const lastBrace = cleanText.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+      cleanText = cleanText.substring(firstBrace, lastBrace + 1);
+    }
+    
+    console.log('🔍 Extracted JSON length:', cleanText.length);
+    console.log('🔍 First 100 chars:', cleanText.substring(0, 100));
     
     console.log('🧹 Cleaned text for parsing:', cleanText.substring(0, 200));
     
-    // Parse JSON response
-    const analysis = JSON.parse(cleanText);
+    // Parse JSON response - try direct parsing first, then fallbacks
+    let analysis;
+    try {
+      // Attempt 1: Direct parse
+      analysis = JSON.parse(cleanText);
+      console.log('✅ Direct JSON parsing successful');
+    } catch (parseError) {
+      console.error('🔍 Direct JSON parse failed:', parseError instanceof Error ? parseError.message : 'Unknown');
+      console.error('🔍 Problematic area:', cleanText.substring(0, 200));
+      
+      // Attempt 2: Try with minimal cleaning
+      try {
+        let minimalClean = cleanText
+          .replace(/[\u0000-\u001F\u007F]/g, ' ') // Replace control chars with spaces
+          .replace(/,(\s*[}\]])/g, '$1')          // Remove trailing commas
+          .trim();
+        
+        analysis = JSON.parse(minimalClean);
+        console.log('✅ Minimal cleaning JSON parsing successful');
+      } catch (minimalError) {
+        console.error('🔍 Minimal cleaning failed:', minimalError instanceof Error ? minimalError.message : 'Unknown');
+        
+        // Attempt 3: Manual parsing for key fields
+        try {
+          analysis = {
+            recommendation: extractJsonValue(cleanText, 'recommendation') || 'PASS',
+            reasoning: extractJsonValue(cleanText, 'reasoning') || 'AI parsing failed - analysis incomplete',
+            nextSteps: extractJsonArray(cleanText, 'nextSteps') || ['Manual validation recommended'],
+            risks: extractJsonArray(cleanText, 'risks') || [],
+            opportunities: extractJsonArray(cleanText, 'opportunities') || [],
+            marketSize: { tam: 0, sam: 0, som: 0 },
+            confidence: 30
+          };
+          console.log('✅ Manual field extraction successful');
+        } catch (manualError) {
+          console.error('❌ All parsing attempts failed');
+          console.error('📄 Full response for debugging:', text.substring(0, 1000));
+          throw new Error(`JSON parsing failed: ${parseError instanceof Error ? parseError.message : 'Unknown parse error'}`);
+        }
+      }
+    }
     
     // Validate and format the response
     return {
@@ -122,31 +182,8 @@ Return only the JSON response, no additional text.
       console.error('⚠️ Unknown AI Error:', errorMessage);
     }
     
-    // Return fallback analysis if AI fails
-    return {
-      recommendation: 'PASS',
-      reasoning: `AI analysis temporarily unavailable (${errorMessage}). The collected data still provides valuable insights for your decision.`,
-      nextSteps: [
-        'Research your target market manually',
-        'Validate demand through customer interviews',
-        'Analyze competitor offerings',
-        'Create a minimal viable product (MVP)'
-      ],
-      risks: [
-        {
-          type: 'TECHNICAL',
-          level: 'MEDIUM',
-          description: 'AI analysis service unavailable',
-          mitigation: 'Manual market research required'
-        }
-      ],
-      opportunities: [
-        'Conduct manual market validation',
-        'Direct customer feedback collection'
-      ],
-      marketSize: { tam: 0, sam: 0, som: 0 },
-      confidence: 30,
-    };
+    // NO FALLBACK DATA - throw error so validation fails properly
+    throw new Error(`Gemini AI analysis failed: ${errorMessage}`);
   }
 }
 
@@ -161,6 +198,28 @@ function formatRisk(risk: any): Risk {
     description: risk.description || 'Risk description not provided',
     mitigation: risk.mitigation || 'Mitigation strategy needed',
   };
+}
+
+// Helper functions for manual JSON field extraction
+function extractJsonValue(text: string, field: string): string | null {
+  const regex = new RegExp(`"${field}"\\s*:\\s*"([^"]*)"`, 'i');
+  const match = text.match(regex);
+  return match ? match[1] : null;
+}
+
+function extractJsonArray(text: string, field: string): string[] {
+  try {
+    const regex = new RegExp(`"${field}"\\s*:\\s*\\[([^\\]]*)\\]`, 'i');
+    const match = text.match(regex);
+    if (!match) return [];
+    
+    // Extract string values from the array
+    const arrayContent = match[1];
+    const stringMatches = arrayContent.match(/"([^"]*)"/g);
+    return stringMatches ? stringMatches.map(s => s.slice(1, -1)) : [];
+  } catch {
+    return [];
+  }
 }
 
 // Quick sentiment analysis for text
