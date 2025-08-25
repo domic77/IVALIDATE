@@ -25,7 +25,7 @@ export default function ProgressPage() {
   const validationId = searchParams?.get('id');
   
   const [status, setStatus] = useState<ValidationStatus | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false); // Start as false - show page immediately
   const [error, setError] = useState<string | null>(null);
   const [startTime, setStartTime] = useState<number>(Date.now());
   const [elapsedSeconds, setElapsedSeconds] = useState<number>(0);
@@ -33,9 +33,16 @@ export default function ProgressPage() {
   useEffect(() => {
     if (!validationId) {
       setError('No validation ID provided');
-      setLoading(false);
       return;
     }
+
+    // Set initial status immediately to show progress page
+    setStatus({
+      validationId,
+      status: 'PENDING',
+      progress: 0,
+      currentStep: 'Starting validation...',
+    });
 
     const fetchStatus = async () => {
       try {
@@ -73,6 +80,7 @@ export default function ProgressPage() {
       }
     };
 
+    // Fetch initial status immediately (but don't block page display)
     fetchStatus();
     
     // Poll for updates every 3 seconds if still processing
@@ -81,8 +89,6 @@ export default function ProgressPage() {
         fetchStatus();
       }
     }, 3000);
-
-    setLoading(false);
 
     return () => clearInterval(interval);
   }, [validationId, router, status?.status]);

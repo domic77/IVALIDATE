@@ -17,33 +17,96 @@ async function ensureDirectories() {
   }
 }
 
-// Save validation data
+// Save validation data using atomic writes to prevent corruption
 export async function saveValidation(validation: ValidationRequest): Promise<void> {
   await ensureDirectories();
   const filePath = path.join(VALIDATIONS_DIR, `${validation.id}.json`);
+  const tempFilePath = `${filePath}.tmp`;
   
   try {
-    await fs.writeFile(filePath, JSON.stringify(validation, null, 2));
+    // Write to temporary file first
+    const jsonData = JSON.stringify(validation, null, 2);
+    await fs.writeFile(tempFilePath, jsonData);
+    
+    // Atomically rename temporary file to final file
+    await fs.rename(tempFilePath, filePath);
   } catch (error) {
+    // Clean up temporary file if it exists
+    try {
+      await fs.unlink(tempFilePath);
+    } catch (cleanupError) {
+      // Ignore cleanup errors
+    }
+    
     console.error('Error saving validation:', error);
     throw new Error('Failed to save validation data');
   }
 }
 
-// Load validation data
+// Load validation data with retry logic and better error handling
 export async function loadValidation(validationId: string): Promise<ValidationRequest | null> {
   const filePath = path.join(VALIDATIONS_DIR, `${validationId}.json`);
   
-  try {
-    const data = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(data) as ValidationRequest;
-  } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
-      return null; // File doesn't exist
+  let lastError;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const data = await fs.readFile(filePath, 'utf-8');
+      
+      // Check if data is empty or incomplete
+      if (!data || data.trim().length === 0) {
+        console.warn(`Validation file ${validationId} is empty, attempt ${attempt + 1}/3`);
+        if (attempt < 2) {
+          await new Promise(resolve => setTimeout(resolve, 100)); // Wait 100ms before retry
+          continue;
+        }
+        return null;
+      }
+      
+      // Try to parse JSON with error recovery
+      try {
+        return JSON.parse(data) as ValidationRequest;
+      } catch (parseError) {
+        console.warn(`JSON parse error for ${validationId}, attempt ${attempt + 1}/3:`, parseError);
+        
+        // If it's the last attempt and still failing, try to repair common JSON issues
+        if (attempt === 2) {
+          try {
+            // Try to fix incomplete JSON by adding closing braces if needed
+            const trimmed = data.trim();
+            if (trimmed.endsWith(',')) {
+              const repaired = trimmed.slice(0, -1) + '}';
+              return JSON.parse(repaired) as ValidationRequest;
+            }
+            // If data ends abruptly, it might be incomplete - return null to trigger retry from client
+            if (!trimmed.endsWith('}')) {
+              console.warn(`Validation file ${validationId} appears to be incomplete`);
+              return null;
+            }
+          } catch (repairError) {
+            console.error(`Failed to repair JSON for ${validationId}:`, repairError);
+          }
+        }
+        
+        lastError = parseError;
+        if (attempt < 2) {
+          await new Promise(resolve => setTimeout(resolve, 100)); // Wait 100ms before retry
+          continue;
+        }
+      }
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
+        return null; // File doesn't exist
+      }
+      lastError = error;
+      if (attempt < 2) {
+        await new Promise(resolve => setTimeout(resolve, 100)); // Wait 100ms before retry
+        continue;
+      }
     }
-    console.error('Error loading validation:', error);
-    throw new Error('Failed to load validation data');
   }
+  
+  console.error('Error loading validation after 3 attempts:', lastError);
+  throw new Error('Failed to load validation data after multiple attempts');
 }
 
 // Update validation data

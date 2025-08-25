@@ -146,52 +146,92 @@ export class ValidationPipeline {
             const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
             const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
             
-            const prompt = `You are a Reddit researcher who finds REAL, EXISTING subreddits by researching online communities. Your job is to identify actual subreddits where people discuss problems related to this startup idea.
+            const prompt = `You are an expert Reddit researcher with deep knowledge of active communities. Your task is to identify 6-8 REAL, PUBLIC subreddits where people actively discuss problems related to this startup idea.
 
 STARTUP IDEA: "${this.refinedIdeaData.oneLiner}"
 TARGET AUDIENCE: "${this.refinedIdeaData.targetAudience}"  
 PROBLEM SOLVED: "${this.refinedIdeaData.problem}"
 
-CRITICAL REQUIREMENTS:
-1. Only suggest subreddits that ACTUALLY EXIST on Reddit (verify they're real)
-2. Focus on subreddits with ACTIVE communities (not dead/inactive ones)
-3. Find communities where the TARGET AUDIENCE actively discusses PROBLEMS
-4. Research subreddits where people complain, ask for help, or seek solutions
+RESEARCH METHODOLOGY - Follow this systematic approach:
 
-Research methodology:
-- Think about where your target audience congregates online
-- Consider problem-specific communities (not just broad industry topics)
-- Look for frustration-based discussions, help-seeking posts
-- Verify subreddit names are correct (exact spelling is critical)
+1. IDENTIFY PROBLEM CATEGORIES:
+   - What specific pain points does this solve?
+   - What daily frustrations do users face?
+   - What workflows or processes are broken?
 
-Examples of PROPER research approach:
-- For restaurant management → "KitchenConfidential" (verified real, active, problem-focused)
-- For parking issues → "mildlyinfuriating" (verified real, people complain about parking)
-- For small business → "sweatystartup" (verified real, active entrepreneurship community)
+2. MAP AUDIENCE TO COMMUNITIES:
+   - Where does this target audience already gather on Reddit?
+   - What are their professional, hobby, or interest-based communities?
+   - Which demographic-specific subreddits do they frequent?
 
-ONLY suggest subreddits you're confident exist and have active communities.
+3. FIND COMPLAINT & HELP-SEEKING COMMUNITIES:
+   - General complaint subreddits where people vent about this problem
+   - Professional communities where this audience asks for solutions
+   - Industry-specific subreddits where this problem is commonly discussed
 
-IMPORTANT: Respond with ONLY valid JSON in this exact format. No markdown, no additional text:
+VERIFIED HIGH-QUALITY SUBREDDITS (examples of proven active communities):
+
+BUSINESS/PROFESSIONAL:
+- entrepreneur (2.1M members, high activity) - startup questions, business problems
+- smallbusiness (1.8M members, high activity) - operational challenges
+- freelance (240K members, medium activity) - independent worker issues
+- startups (1.2M members, medium activity) - early-stage company problems
+- sales (180K members, medium activity) - selling challenges and tools
+
+PROBLEM/COMPLAINT COMMUNITIES:
+- mildlyinfuriating (16M members, very high) - daily annoyances and problems
+- assholedesign (2.8M members, high) - poorly designed products/services
+- crappydesign (3.2M members, high) - frustration with bad design
+- techsupport (1.2M members, high) - technical problem solving
+
+INDUSTRY-SPECIFIC (choose relevant ones):
+- webdev (1.8M members, high) - web development problems
+- marketing (680K members, medium) - marketing challenges
+- productivity (450K members, medium) - efficiency and workflow issues
+- sysadmin (450K members, medium) - IT operations problems
+- cscareerquestions (950K members, high) - tech career challenges
+
+DEMOGRAPHIC/LIFESTYLE:
+- workingmoms (85K members, medium) - working parent challenges  
+- college (1.1M members, high) - student problems and solutions
+- careerchange (120K members, medium) - professional transition issues
+- remotework (220K members, medium) - remote work challenges
+
+SELECTION CRITERIA (be very strict):
+✓ Must have 50K+ active members (avoid small/dead communities)
+✓ Daily posts and comments (check recent activity)
+✓ Regular problem discussions (people asking for help/solutions)
+✓ Target audience presence (your users actually participate here)
+✓ Public access (no private/restricted communities)
+✓ English-speaking (avoid foreign language subreddits unless specified)
+
+SEARCH STRATEGY:
+- Use problem-specific keywords people actually type
+- Include solution-seeking language ("how to", "best way", "alternatives")
+- Add frustrated/complaint terms ("sucks", "hate", "terrible", "broken")
+- Focus on action-oriented queries that show intent to solve problems
+
+IMPORTANT: Return ONLY valid JSON with NO markdown formatting:
 
 {
   "recommendedSubreddits": [
     {
-      "name": "subreddit_name_without_r_slash",
-      "reason": "Brief explanation of why this community is relevant",
-      "memberCount": "estimated member count like '2.5M' or 'large' or 'medium'",
-      "activityLevel": "high/medium/low activity level"
+      "name": "exact_subreddit_name",
+      "reason": "Specific explanation of why this community discusses your problem",
+      "memberCount": "actual member count like '1.2M' or 'large' if unknown",
+      "activityLevel": "high/medium based on daily post volume"
     }
   ],
-  "searchKeywords": ["5-8 specific terms people actually type when they have this problem"],
-  "focusQueries": ["4-6 search queries like 'how to solve X' or 'X alternatives' that find solution-seekers"],
-  "painPointQueries": ["3-5 queries with frustrated language like 'X sucks' or 'hate dealing with X' that find complainers"]
+  "searchKeywords": ["specific terms your target audience types when they have this problem"],
+  "focusQueries": ["solution-seeking queries like 'how to solve X' or 'best X alternative'"],
+  "painPointQueries": ["complaint/frustration queries like 'X is terrible' or 'hate dealing with X'"]
 }
 
-Focus on:
-- REAL subreddits that exist and are active (not dead communities)
-- SPECIFIC problems, not general topics
-- Communities where people ASK FOR HELP with this exact issue
-- Keywords people ACTUALLY use (not marketing terms)`;
+Select 6-8 diverse subreddits covering:
+- 2-3 problem/complaint communities (broad reach)
+- 2-3 target audience professional communities  
+- 2-3 industry/niche specific communities
+- Focus on communities with regular help-seeking posts about your specific problem type`;
             
             const result = await model.generateContent(prompt);
             const response = await result.response;
